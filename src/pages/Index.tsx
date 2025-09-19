@@ -1,6 +1,9 @@
 import Navigation from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-bag.jpg";
+import { HeroCarousel } from "@/components/HeroCarousel";
+import doonaImage from "@/assets/doona-main.jpg";
+import briefPackImage from "@/assets/brief-pack.jpg";
+import inhomeImage from "@/assets/inhome-app-main.jpg";
 
 const Index = () => {
   return (
@@ -10,20 +13,13 @@ const Index = () => {
       <main className="relative">
         {/* Hero Section */}
         <section className="relative min-h-screen flex items-center">
-          <div className="absolute inset-0">
-            <img 
-              src={heroImage} 
-              alt="Professional briefcase convertible to backpack"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-background/40"></div>
-          </div>
+          <HeroCarousel />
           
-          <div className="relative container mx-auto px-6">
+          <div className="relative container mx-auto px-4 sm:px-6">
             <div className="max-w-2xl">
               <div className="space-y-6 text-right ml-auto">
-                <h1 className="text-sm font-medium tracking-widest text-foreground uppercase">
-                  DESIGNABEL LLC - EVAN ABEL
+                <h1 className="text-sm font-medium tracking-widest text-foreground uppercase font-brand">
+                  designabel
                 </h1>
                 
                 <h2 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
@@ -52,7 +48,7 @@ const Index = () => {
 
         {/* Featured Work Section */}
         <section className="py-20 bg-secondary">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto px-4 sm:px-6">
             <div className="text-center mb-16">
               <h3 className="text-3xl font-bold text-foreground mb-4">Featured Work</h3>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -64,7 +60,7 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="aspect-square bg-muted rounded-lg overflow-hidden">
                   <img 
-                    src="/src/assets/doona.jpg" 
+                    src={doonaImage} 
                     alt="Doona Car Seat"
                     className="w-full h-full object-cover"
                   />
@@ -76,7 +72,7 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="aspect-square bg-muted rounded-lg overflow-hidden">
                   <img 
-                    src="/src/assets/brief-pack.jpg" 
+                    src={briefPackImage} 
                     alt="Brief Pack"
                     className="w-full h-full object-cover"
                   />
@@ -88,13 +84,13 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="aspect-square bg-muted rounded-lg overflow-hidden">
                   <img 
-                    src="/src/assets/inhome-app.jpg" 
+                    src={inhomeImage} 
                     alt="InHome App"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <h4 className="text-xl font-semibold text-foreground">Walmart InHome</h4>
-                <p className="text-muted-foreground">Digital grocery delivery platform</p>
+                <p className="text-muted-foreground">Last-inch delivery and 2-way logistics to the fridge!</p>
               </div>
             </div>
           </div>
