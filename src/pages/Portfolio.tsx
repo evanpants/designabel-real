@@ -40,7 +40,7 @@ const Portfolio = () => {
                   </p>
                   <Button variant="outline" className="mt-4">
                     <a href="https://www.doona.com/" target="_blank" rel="noopener noreferrer">
-                      Learn More
+                      Doona Website
                     </a>
                   </Button>
                 </div>
@@ -55,6 +55,11 @@ const Portfolio = () => {
                   <p className="text-foreground leading-relaxed">
                     The Newton crib mattress represents a breakthrough in infant sleep safety through innovative breathable design. Unlike traditional mattresses, Newton's unique structure allows for unrestricted airflow, reducing the risk of CO2 rebreathing. I led the product development process from concept through manufacturing, focusing on creating a mattress that could be completely washable while maintaining structural integrity. The design required extensive material testing and safety validation to meet CPSC standards while delivering superior comfort and peace of mind for parents.
                   </p>
+                  <Button variant="outline" className="mt-4">
+                    <a href="https://newtonbaby.com/" target="_blank" rel="noopener noreferrer">
+                      Newton Website
+                    </a>
+                  </Button>
                 </div>
                 <div>
                   <img 
@@ -86,6 +91,11 @@ const Portfolio = () => {
                   <p className="text-foreground leading-relaxed">
                     The Wim frozen yogurt machine revolutionizes commercial soft-serve production through advanced mixing technology and user-friendly design. I spearheaded the development of this sophisticated system that combines precision temperature control with innovative mixing mechanisms to deliver consistently perfect texture. The project required extensive food safety compliance, thermal engineering, and user interface design to create a machine that could operate reliably in high-volume commercial environments while maintaining product quality throughout extended operation cycles.
                   </p>
+                  <Button variant="outline" className="mt-4">
+                    <a href="https://archive.curbed.com/2017/8/9/16119664/frozen-yogurt-machine-home-buy-wim" target="_blank" rel="noopener noreferrer">
+                      Wim Launch
+                    </a>
+                  </Button>
                 </div>
               </div>
             </section>
@@ -100,8 +110,8 @@ const Portfolio = () => {
                   <p className="text-foreground leading-relaxed">
                     The Whstl Brief-Pack represents the perfect fusion of professional aesthetics and functional versatility. This innovative convertible bag seamlessly transforms from an elegant briefcase to a comfortable backpack through a patented strap mechanism that eliminates detachable parts. I led the comprehensive product development process, from initial concept through manufacturing scale-up, focusing on premium materials, durability testing, and ergonomic design. The bag features thoughtful organizational elements and is constructed with high-quality waxed canvas and leather to ensure it ages beautifully while maintaining its professional appearance.
                   </p>
-                  <Button>
-                    <a href="/bags">View Details</a>
+                  <Button variant="outline">
+                    <a href="/bags">Whstl Website</a>
                   </Button>
                 </div>
                 <div>

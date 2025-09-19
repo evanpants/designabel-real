@@ -18,10 +18,6 @@ const Index = () => {
           <div className="relative container mx-auto px-4 sm:px-6">
             <div className="max-w-2xl">
               <div className="space-y-6 text-right ml-auto">
-                <h1 className="text-sm font-medium tracking-widest text-foreground uppercase font-brand">
-                  designabel
-                </h1>
-                
                 <h2 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
                   Product & Operations<br />
                   Leadership
@@ -33,7 +29,7 @@ const Index = () => {
                   <p>• Service Design & Sustainability</p>
                 </div>
                 
-                <div className="flex gap-4 justify-end pt-6">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center sm:justify-end pt-6">
                   <Button size="lg" className="px-8">
                     <a href="/portfolio">Physical Products</a>
                   </Button>

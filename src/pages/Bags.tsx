@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { BagCarousel } from "@/components/BagCarousel";
 
 const Bags = () => {
   return (
@@ -82,6 +83,14 @@ const Bags = () => {
                   </p>
                 </div>
               </div>
+            </section>
+
+            {/* Additional Images Carousel */}
+            <section className="mt-20">
+              <div className="text-center mb-8">
+                <h3 className="text-2xl font-bold text-foreground">Product Gallery</h3>
+              </div>
+              <BagCarousel />
             </section>
 
             {/* Product Details */}
