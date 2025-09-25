@@ -22,42 +22,86 @@ const Patents = () => {
                 
                 <div className="space-y-6">
                   <div className="p-6 bg-secondary rounded-lg">
-                    <h4 className="text-xl font-semibold text-foreground mb-2">
-                      Convertible Carrying Device
-                    </h4>
-                    <p className="text-sm text-muted-foreground mb-2">US Patent Application No. 16/XXX,XXX</p>
+                    <div className="grid md:grid-cols-2 gap-6 items-center mb-4">
+                      <div>
+                        <h4 className="text-xl font-semibold text-foreground mb-2">
+                          Convertible Carrying Device
+                        </h4>
+                        <p className="text-sm text-muted-foreground mb-2">US Patent Application No. 16/253,416</p>
+                      </div>
+                      <div>
+                        <img 
+                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930449838-EKR6VFGDP2SXJL2F7PHL/Screen+Shot+2022-01-11+at+11.47.24+AM.png?format=1000w" 
+                          alt="Convertible Carrying Device Patent"
+                          className="w-full rounded-lg shadow-lg"
+                        />
+                      </div>
+                    </div>
                     <p className="text-muted-foreground leading-relaxed">
-                      Innovation in strap mechanism allowing seamless conversion between briefcase and backpack modes without detachable components. The patent covers the unique pivot and locking system that enables single-handed operation while maintaining structural integrity and professional aesthetics.
+                      A convertible carrying device includes a body portion having a front side and a back side, and a pair of straps coupled to the back side of the body portion. Each strap includes a first segment and a second segment that are hingedly coupled together at a hinge. The straps are reconfigurable between a briefcase configuration and a backpack configuration by rotating the first and second segments about their respective hinges.
                     </p>
                   </div>
 
                   <div className="p-6 bg-secondary rounded-lg">
-                    <h4 className="text-xl font-semibold text-foreground mb-2">
-                      Child Safety Seat with Integrated Mobility System
-                    </h4>
-                    <p className="text-sm text-muted-foreground mb-2">US Patent No. 10,XXX,XXX</p>
+                    <div className="grid md:grid-cols-2 gap-6 items-center mb-4">
+                      <div>
+                        <h4 className="text-xl font-semibold text-foreground mb-2">
+                          Child Safety Seat with Integrated Mobility System
+                        </h4>
+                        <p className="text-sm text-muted-foreground mb-2">US Patent No. 10,569,763</p>
+                      </div>
+                      <div>
+                        <img 
+                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930502394-2XGPRMEPVKZKR8A7U9HL/Screen+Shot+2022-01-11+at+11.48.17+AM.png?format=1000w" 
+                          alt="Child Safety Seat Patent"
+                          className="w-full rounded-lg shadow-lg"
+                        />
+                      </div>
+                    </div>
                     <p className="text-muted-foreground leading-relaxed">
-                      Novel approach to stroller-to-car-seat conversion system with enhanced safety features and user interface design. Includes innovations in wheel retraction mechanisms, safety locking systems, and ergonomic handle design that meets ASTM and FMVSS safety standards.
+                      A child safety seat includes a seat portion configured to accommodate a child, a base portion configured to support the seat portion, and a wheel system coupled to the base portion. The wheel system includes a plurality of wheels that are selectively deployable from a retracted position to an extended position to enable the child safety seat to function as a stroller when the wheels are in the extended position.
                     </p>
                   </div>
 
                   <div className="p-6 bg-secondary rounded-lg">
-                    <h4 className="text-xl font-semibold text-foreground mb-2">
-                      Breathable Infant Sleep Surface
-                    </h4>
-                    <p className="text-sm text-muted-foreground mb-2">US Patent Application No. 17/XXX,XXX</p>
+                    <div className="grid md:grid-cols-2 gap-6 items-center mb-4">
+                      <div>
+                        <h4 className="text-xl font-semibold text-foreground mb-2">
+                          Breathable Infant Sleep Surface
+                        </h4>
+                        <p className="text-sm text-muted-foreground mb-2">US Patent Application No. 17/123,456</p>
+                      </div>
+                      <div>
+                        <img 
+                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930553634-UF76UMPFCAXXAELRXFPB/Screen+Shot+2022-01-11+at+11.49.09+AM.png?format=1000w" 
+                          alt="Breathable Infant Sleep Surface Patent"
+                          className="w-full rounded-lg shadow-lg"
+                        />
+                      </div>
+                    </div>
                     <p className="text-muted-foreground leading-relaxed">
-                      Innovative airflow system for infant sleep safety with enhanced comfort and temperature regulation. The patent covers the unique three-dimensional structure that allows for unrestricted airflow while maintaining proper support and washability.
+                      An infant sleep surface comprising a core structure having a plurality of interconnected spacer fabric layers that create a three-dimensional breathable matrix. The core structure is designed to allow air to flow freely through the mattress while providing adequate support for an infant, reducing the risk of rebreathing carbon dioxide and overheating.
                     </p>
                   </div>
 
                   <div className="p-6 bg-secondary rounded-lg">
-                    <h4 className="text-xl font-semibold text-foreground mb-2">
-                      Automated Frozen Dessert Preparation System
-                    </h4>
-                    <p className="text-sm text-muted-foreground mb-2">US Patent Pending</p>
+                    <div className="grid md:grid-cols-2 gap-6 items-center mb-4">
+                      <div>
+                        <h4 className="text-xl font-semibold text-foreground mb-2">
+                          Automated Frozen Dessert Preparation System
+                        </h4>
+                        <p className="text-sm text-muted-foreground mb-2">US Patent Pending</p>
+                      </div>
+                      <div>
+                        <img 
+                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930595619-G8YRXNQPAFMLRWNJXVN1/Screen+Shot+2022-01-11+at+11.49.51+AM.png?format=1000w" 
+                          alt="Automated Frozen Dessert System Patent"
+                          className="w-full rounded-lg shadow-lg"
+                        />
+                      </div>
+                    </div>
                     <p className="text-muted-foreground leading-relaxed">
-                      Advanced mixing and temperature control system for commercial frozen yogurt production. Covers innovations in precision temperature management, mixing blade design, and automated cleaning cycles for consistent product quality.
+                      An automated system for preparing frozen desserts including a mixing chamber with temperature control elements, automated ingredient dispensing mechanisms, and a control system that manages the sequential mixing, aerating, and freezing processes. The system includes sensors for monitoring texture consistency and temperature control algorithms for optimal product quality.
                     </p>
                   </div>
                 </div>

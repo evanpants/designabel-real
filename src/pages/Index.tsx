@@ -26,7 +26,8 @@ const Index = () => {
                 <div className="space-y-3 text-lg text-foreground">
                   <p>• Physical Product & Manufacturing</p>
                   <p>• Digital Product</p>
-                  <p>• Service Design & Sustainability</p>
+                  <p>• Service Design</p>
+                  <p>• Sustainability</p>
                 </div>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center sm:justify-end pt-6">
@@ -80,7 +81,7 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="aspect-square bg-muted rounded-lg overflow-hidden">
                   <img 
-                    src={inhomeImage} 
+                    src="/src/assets/inhome-full.jpg" 
                     alt="InHome App"
                     className="w-full h-full object-cover"
                   />

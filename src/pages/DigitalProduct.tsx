@@ -21,7 +21,7 @@ const DigitalProduct = () => {
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                   <img 
-                    src="/src/assets/inhome-app.jpg" 
+                    src="/src/assets/inhome-full.jpg" 
                     alt="Walmart InHome App Interface"
                     className="w-full rounded-lg shadow-lg"
                   />
@@ -39,6 +39,33 @@ const DigitalProduct = () => {
                     <li>• Safety and security protocol development</li>
                     <li>• Cross-platform mobile application development</li>
                   </ul>
+                </div>
+              </div>
+            </section>
+
+            {/* Frank Section */}
+            <section className="space-y-8">
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                <div className="space-y-4">
+                  <h2 className="text-3xl font-bold text-foreground">
+                    Frank
+                  </h2>
+                  <p className="text-lg text-muted-foreground">
+                    Peer-to-peer money lending platform rooted in behavioral economics. Frank uses behavioral economics principles to replace legal contracts with social ones for proximate networks of friends.
+                  </p>
+                  <ul className="space-y-2 text-foreground">
+                    <li>• Behavioral economics integration</li>
+                    <li>• Social contract mechanisms</li>
+                    <li>• User experience design for financial products</li>
+                    <li>• Trust and reputation systems</li>
+                  </ul>
+                </div>
+                <div>
+                  <img 
+                    src="/src/assets/frank-1.png" 
+                    alt="Frank App Interface"
+                    className="w-full rounded-lg shadow-lg"
+                  />
                 </div>
               </div>
             </section>

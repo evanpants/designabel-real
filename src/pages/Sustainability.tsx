@@ -59,7 +59,7 @@ const Sustainability = () => {
                 </div>
               </div>
               
-              <div className="grid md:grid-cols-2 gap-4">
+              <div className="grid md:grid-cols-3 gap-4">
                 {[
                   { name: "ClimateBase", url: "https://climatebase.org/" },
                   { name: "SOSV", url: "https://sosvclimatetech.com/" },
@@ -69,7 +69,7 @@ const Sustainability = () => {
                   { name: "Climate Jobs List", url: "https://www.climatejobslist.com/" },
                   { name: "CTVC", url: "https://climate-tech-vc.pallet.com/jobs" }
                 ].map((link) => (
-                  <Button key={link.name} variant="ghost" className="h-auto p-3 justify-start">
+                  <Button key={link.name} variant="outline" className="h-auto p-4">
                     <a href={link.url} target="_blank" rel="noopener noreferrer">
                       {link.name}
                     </a>

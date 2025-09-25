@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
 import bagCarousel1 from "@/assets/bag-carousel-1.jpg";
+import bagGalleryFull from "@/assets/bag-gallery-full.jpg";
 
 const images = [
+  bagGalleryFull,
   bagCarousel1,
   // Add more bag images here as they become available
 ];
@@ -28,7 +30,7 @@ export const BagCarousel = () => {
           key={index}
           src={image}
           alt={`Whstl bag view ${index + 1}`}
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+          className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-1000 ${
             index === currentIndex ? "opacity-100" : "opacity-0"
           }`}
         />

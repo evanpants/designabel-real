@@ -26,15 +26,15 @@ const Bags = () => {
                 </p>
                 <div className="space-y-4">
                   <p className="text-3xl font-bold text-foreground">$295.00</p>
-                  <Button size="lg" className="w-full md:w-auto">
-                    Add to Cart
+                  <Button size="lg" className="w-full md:w-auto" disabled>
+                    SOLD OUT
                   </Button>
                 </div>
               </div>
               
               <div className="relative">
                 <img 
-                  src="/src/assets/hero-bag.jpg" 
+                  src="/src/assets/bag-hero-new.jpg" 
                   alt="GOOSE Brief-Pack convertible bag"
                   className="w-full rounded-lg shadow-2xl"
                 />
@@ -108,15 +108,6 @@ const Bags = () => {
                   </ul>
                 </div>
                 
-                <div>
-                  <h3 className="text-2xl font-bold text-foreground mb-4">What's Included</h3>
-                  <ul className="space-y-2 text-foreground">
-                    <li>• GOOSE Brief-Pack</li>
-                    <li>• Leather care kit</li>
-                    <li>• Dust bag for storage</li>
-                    <li>• Product manual and warranty card</li>
-                  </ul>
-                </div>
               </div>
             </section>
 
