@@ -13,132 +13,137 @@ const Achievements = () => {
             <section className="text-center space-y-8">
               <h1 className="text-4xl font-bold text-foreground">Achievements</h1>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                Recognition and milestones in product development and innovation.
+                Speaking engagements, media coverage, and industry recognition.
               </p>
             </section>
 
-            {/* Fast Company Feature */}
+            {/* Terra.do */}
             <section className="space-y-8">
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                   <img 
-                    src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641929394798-WDNLB66QXPYSWJYZ60NX/Screen+Shot+2022-01-11+at+11.29.41+AM.png?format=1000w" 
-                    alt="Fast Company Innovation by Design Feature"
+                    src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/07e7398e-721a-46c8-b6f2-77e38c3786d9/Screen+Shot+2023-10-02+at+11.19.30+PM.png" 
+                    alt="Terra.do"
                     className="w-full rounded-lg shadow-lg"
                   />
                 </div>
                 <div className="space-y-4">
                   <h2 className="text-3xl font-bold text-foreground">
-                    Fast Company Innovation by Design
+                    Terra.do
                   </h2>
-                  <p className="text-lg text-muted-foreground">
-                    Featured in Fast Company's Innovation by Design awards for breakthrough product development.
-                  </p>
+                  <p className="text-muted-foreground">October 2023</p>
                   <Button variant="outline">
-                    <a href="https://www.fastcompany.com/90698019/innovation-by-design-2021-products-finalists-and-honorable-mentions" target="_blank" rel="noopener noreferrer">
-                      Read Article
+                    <a href="https://app.terra.do/events/Dxg57oaty4hfjOJWDw1s" target="_blank" rel="noopener noreferrer">
+                      How to Navigate a Career in Climate
                     </a>
                   </Button>
                 </div>
               </div>
             </section>
 
-            {/* Core77 Design Awards */}
+            {/* Earth Day 2023 - Upstream */}
             <section className="space-y-8">
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div className="space-y-4">
                   <h2 className="text-3xl font-bold text-foreground">
-                    Core77 Design Awards
+                    Earth Day 2023 - Upstream
                   </h2>
-                  <p className="text-lg text-muted-foreground">
-                    Recognition from Core77 for excellence in industrial design and innovation.
-                  </p>
+                  <p className="text-muted-foreground">April 2023</p>
                   <Button variant="outline">
-                    <a href="https://designawards.core77.com/" target="_blank" rel="noopener noreferrer">
-                      View Awards
+                    <a href="https://upstreamsolutions.org/blog/earth-day-2023" target="_blank" rel="noopener noreferrer">
+                      Event Video Recording
                     </a>
                   </Button>
                 </div>
                 <div>
                   <img 
-                    src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641929501651-7RFQOHR4VHCDH4GQHVXX/Screen+Shot+2022-01-11+at+11.31.32+AM.png?format=1000w" 
-                    alt="Core77 Design Awards"
+                    src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/b028a7f6-d5eb-4f29-ba9b-ba3defb6bbb7/Screen+Shot+2023-10-02+at+11.29.20+PM.png" 
+                    alt="Earth Day 2023 - Upstream"
                     className="w-full rounded-lg shadow-lg"
                   />
                 </div>
               </div>
             </section>
 
-            {/* NYU Teaching Excellence */}
+            {/* 2023 Sustainability in Packaging US */}
             <section className="space-y-8">
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                   <img 
-                    src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641929567089-MRNBEMFKMFIMYQWI8Z2W/Screen+Shot+2022-01-11+at+11.32.39+AM.png?format=1000w" 
-                    alt="NYU Teaching"
+                    src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/ef82610c-e119-41f7-88ce-14d57acb34ba/sustainability+in+packaging+2023.jpeg" 
+                    alt="2023 Sustainability in Packaging US"
                     className="w-full rounded-lg shadow-lg"
                   />
                 </div>
                 <div className="space-y-4">
                   <h2 className="text-3xl font-bold text-foreground">
-                    NYU Adjunct Professor
+                    2023 Sustainability in Packaging US
                   </h2>
-                  <p className="text-lg text-muted-foreground">
-                    Teaching product development, circular economy, and design innovation at NYU.
-                  </p>
+                  <p className="text-muted-foreground">March 2023</p>
                   <Button variant="outline">
-                    <a href="/academia" rel="noopener noreferrer">
-                      View Courses
+                    <a href="https://www.sustainability-in-packaging.com/sustainability-in-packaging-us/agenda?EventId=4943" target="_blank" rel="noopener noreferrer">
+                      Fireside Chat: The Age of #Refillution
                     </a>
                   </Button>
                 </div>
               </div>
             </section>
 
-            {/* Industrial Design Magazine */}
+            {/* FoodHacks Panel Moderator */}
             <section className="space-y-8">
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div className="space-y-4">
                   <h2 className="text-3xl font-bold text-foreground">
-                    Industrial Design Magazine
+                    FoodHacks Panel Moderator
                   </h2>
-                  <p className="text-lg text-muted-foreground">
-                    Featured coverage of innovative product development and manufacturing processes.
-                  </p>
+                  <p className="text-muted-foreground">October 2023</p>
                   <Button variant="outline">
-                    <a href="https://www.industrialdesignmag.com/" target="_blank" rel="noopener noreferrer">
-                      Read Coverage
+                    <a href="https://www.youtube.com/watch?feature=youtu.be&v=HMR6rvG_dYc" target="_blank" rel="noopener noreferrer">
+                      Video Recording
                     </a>
                   </Button>
                 </div>
                 <div>
                   <img 
-                    src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641929631788-N55MBYNYB77W6BG32RJ7/Screen+Shot+2022-01-11+at+11.33.43+AM.png?format=1000w" 
-                    alt="Industrial Design Magazine"
+                    src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/aa496255-7cda-49dd-a40c-33e7ea024229/Screen+Shot+2023-12-03+at+11.01.53+AM.png" 
+                    alt="FoodHacks Panel Moderator"
                     className="w-full rounded-lg shadow-lg"
                   />
                 </div>
               </div>
             </section>
 
-            {/* Impact Metrics */}
-            <section className="space-y-6">
-              <h3 className="text-2xl font-bold text-foreground text-center">Innovation Impact</h3>
-              <div className="grid md:grid-cols-3 gap-6">
-                <div className="p-6 bg-secondary rounded-lg text-center">
-                  <h4 className="text-3xl font-bold text-foreground mb-2">5+</h4>
-                  <p className="text-muted-foreground">Products Brought to Market</p>
+            {/* Making the Rounds Podcast */}
+            <section className="space-y-8">
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                  <img 
+                    src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/3b16fb1b-0ec9-48b5-83c1-439db095f0ad/Screen+Shot+2023-10-02+at+11.58.22+PM.png" 
+                    alt="Making the Rounds Podcast"
+                    className="w-full rounded-lg shadow-lg"
+                  />
                 </div>
-                
-                <div className="p-6 bg-secondary rounded-lg text-center">
-                  <h4 className="text-3xl font-bold text-foreground mb-2">$100M+</h4>
-                  <p className="text-muted-foreground">Revenue Generated</p>
+                <div className="space-y-4">
+                  <h2 className="text-3xl font-bold text-foreground">
+                    Making the Rounds with Reusable Grocery Delivery: Episode #108
+                  </h2>
+                  <Button variant="outline">
+                    <a href="https://upstreamsolutions.org/podcast/the-rounds" target="_blank" rel="noopener noreferrer">
+                      Podcast
+                    </a>
+                  </Button>
                 </div>
-                
-                <div className="p-6 bg-secondary rounded-lg text-center">
-                  <h4 className="text-3xl font-bold text-foreground mb-2">4</h4>
-                  <p className="text-muted-foreground">Patents Filed</p>
-                </div>
+              </div>
+            </section>
+
+            {/* Additional podcast image */}
+            <section className="space-y-8">
+              <div className="text-center">
+                <img 
+                  src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/e1d51078-98e3-49f9-a600-b31e2321f719/Screen+Shot+2023-10-02+at+11.42.23+PM.png" 
+                  alt="Podcast appearance"
+                  className="w-full max-w-md mx-auto rounded-lg shadow-lg"
+                />
               </div>
             </section>
 

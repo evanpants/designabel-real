@@ -31,7 +31,7 @@ const Patents = () => {
                       </div>
                       <div>
                         <img 
-                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930449838-EKR6VFGDP2SXJL2F7PHL/Screen+Shot+2022-01-11+at+11.47.24+AM.png?format=1000w" 
+                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930449838-EKR6VFGDP2SXJL2F7PHL/Screen+Shot+2022-01-11+at+11.47.24+AM.png" 
                           alt="Convertible Carrying Device Patent"
                           className="w-full rounded-lg shadow-lg"
                         />
@@ -52,7 +52,7 @@ const Patents = () => {
                       </div>
                       <div>
                         <img 
-                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930502394-2XGPRMEPVKZKR8A7U9HL/Screen+Shot+2022-01-11+at+11.48.17+AM.png?format=1000w" 
+                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930502394-2XGPRMEPVKZKR8A7U9HL/Screen+Shot+2022-01-11+at+11.48.17+AM.png" 
                           alt="Child Safety Seat Patent"
                           className="w-full rounded-lg shadow-lg"
                         />
@@ -73,7 +73,7 @@ const Patents = () => {
                       </div>
                       <div>
                         <img 
-                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930553634-UF76UMPFCAXXAELRXFPB/Screen+Shot+2022-01-11+at+11.49.09+AM.png?format=1000w" 
+                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930553634-UF76UMPFCAXXAELRXFPB/Screen+Shot+2022-01-11+at+11.49.09+AM.png" 
                           alt="Breathable Infant Sleep Surface Patent"
                           className="w-full rounded-lg shadow-lg"
                         />
@@ -94,7 +94,7 @@ const Patents = () => {
                       </div>
                       <div>
                         <img 
-                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930595619-G8YRXNQPAFMLRWNJXVN1/Screen+Shot+2022-01-11+at+11.49.51+AM.png?format=1000w" 
+                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930595619-G8YRXNQPAFMLRWNJXVN1/Screen+Shot+2022-01-11+at+11.49.51+AM.png" 
                           alt="Automated Frozen Dessert System Patent"
                           className="w-full rounded-lg shadow-lg"
                         />

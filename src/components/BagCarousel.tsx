@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
-import bagCarousel1 from "@/assets/bag-carousel-1.jpg";
-import bagGalleryFull from "@/assets/bag-gallery-full.jpg";
+import bagGallery2 from "@/assets/bag-gallery-2.webp";
+import bagGallery3 from "@/assets/bag-gallery-3.webp";
+import bagGallery4 from "@/assets/bag-gallery-4.webp";
 
 const images = [
-  bagGalleryFull,
-  bagCarousel1,
-  // Add more bag images here as they become available
+  bagGallery2,
+  bagGallery3,
+  bagGallery4,
 ];
 
 export const BagCarousel = () => {
