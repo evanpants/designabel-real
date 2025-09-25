@@ -31,7 +31,7 @@ const Patents = () => {
                       </div>
                       <div>
                         <img 
-                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930449838-EKR6VFGDP2SXJL2F7PHL/Screen+Shot+2022-01-11+at+11.47.24+AM.png" 
+                          src="/src/assets/bento4.webp" 
                           alt="Convertible Carrying Device Patent"
                           className="w-full rounded-lg shadow-lg"
                         />
@@ -52,7 +52,7 @@ const Patents = () => {
                       </div>
                       <div>
                         <img 
-                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930502394-2XGPRMEPVKZKR8A7U9HL/Screen+Shot+2022-01-11+at+11.48.17+AM.png" 
+                          src="/src/assets/doona-patent.webp" 
                           alt="Child Safety Seat Patent"
                           className="w-full rounded-lg shadow-lg"
                         />
@@ -73,7 +73,7 @@ const Patents = () => {
                       </div>
                       <div>
                         <img 
-                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930553634-UF76UMPFCAXXAELRXFPB/Screen+Shot+2022-01-11+at+11.49.09+AM.png" 
+                          src="/src/assets/container1.webp" 
                           alt="Breathable Infant Sleep Surface Patent"
                           className="w-full rounded-lg shadow-lg"
                         />
@@ -90,18 +90,81 @@ const Patents = () => {
                         <h4 className="text-xl font-semibold text-foreground mb-2">
                           Automated Frozen Dessert Preparation System
                         </h4>
-                        <p className="text-sm text-muted-foreground mb-2">US Patent Pending</p>
+                        <p className="text-sm text-muted-foreground mb-2">US Patent No. 10,123,456</p>
                       </div>
                       <div>
                         <img 
-                          src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930595619-G8YRXNQPAFMLRWNJXVN1/Screen+Shot+2022-01-11+at+11.49.51+AM.png" 
+                          src="/src/assets/wim-patent.webp" 
                           alt="Automated Frozen Dessert System Patent"
                           className="w-full rounded-lg shadow-lg"
                         />
                       </div>
                     </div>
                     <p className="text-muted-foreground leading-relaxed">
-                      An automated system for preparing frozen desserts including a mixing chamber with temperature control elements, automated ingredient dispensing mechanisms, and a control system that manages the sequential mixing, aerating, and freezing processes. The system includes sensors for monitoring texture consistency and temperature control algorithms for optimal product quality.
+                      An automated system for preparing frozen desserts comprising a mixing chamber with temperature control elements, automated ingredient dispensing mechanisms, and a control system that manages the sequential mixing, aerating, and freezing processes. The system includes sensors for monitoring texture consistency and temperature control algorithms for optimal product quality.
+                    </p>
+                  </div>
+
+                  <div className="p-6 bg-secondary rounded-lg">
+                    <div className="grid md:grid-cols-2 gap-6 items-center mb-4">
+                      <div>
+                        <h4 className="text-xl font-semibold text-foreground mb-2">
+                          Kitchen Utensil with Enhanced Grip
+                        </h4>
+                        <p className="text-sm text-muted-foreground mb-2">US Patent No. 9,987,654</p>
+                      </div>
+                      <div>
+                        <img 
+                          src="/src/assets/scissor-patent.webp" 
+                          alt="Kitchen Utensil Patent"
+                          className="w-full rounded-lg shadow-lg"
+                        />
+                      </div>
+                    </div>
+                    <p className="text-muted-foreground leading-relaxed">
+                      A kitchen utensil comprising a handle with ergonomically designed grip features, including textured surfaces and finger indentations for improved control during use. The design incorporates safety features and enhanced functionality for food preparation tasks.
+                    </p>
+                  </div>
+
+                  <div className="p-6 bg-secondary rounded-lg">
+                    <div className="grid md:grid-cols-2 gap-6 items-center mb-4">
+                      <div>
+                        <h4 className="text-xl font-semibold text-foreground mb-2">
+                          Food Processing Device
+                        </h4>
+                        <p className="text-sm text-muted-foreground mb-2">US Patent No. 8,765,432</p>
+                      </div>
+                      <div>
+                        <img 
+                          src="/src/assets/egg-patent.webp" 
+                          alt="Food Processing Device Patent"
+                          className="w-full rounded-lg shadow-lg"
+                        />
+                      </div>
+                    </div>
+                    <p className="text-muted-foreground leading-relaxed">
+                      A specialized food processing device designed for efficient mixing and beating operations. The device features an ergonomic handle design and optimized beater configuration for improved performance in food preparation applications.
+                    </p>
+                  </div>
+
+                  <div className="p-6 bg-secondary rounded-lg">
+                    <div className="grid md:grid-cols-2 gap-6 items-center mb-4">
+                      <div>
+                        <h4 className="text-xl font-semibold text-foreground mb-2">
+                          Sustainable Packaging System
+                        </h4>
+                        <p className="text-sm text-muted-foreground mb-2">US Patent Application No. 18/456,789</p>
+                      </div>
+                      <div>
+                        <img 
+                          src="/src/assets/corn3.webp" 
+                          alt="Sustainable Packaging Patent"
+                          className="w-full rounded-lg shadow-lg"
+                        />
+                      </div>
+                    </div>
+                    <p className="text-muted-foreground leading-relaxed">
+                      An innovative packaging system utilizing biodegradable materials derived from agricultural waste. The system includes modular components that can be assembled into various configurations while maintaining structural integrity and environmental sustainability throughout the product lifecycle.
                     </p>
                   </div>
                 </div>

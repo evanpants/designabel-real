@@ -27,7 +27,7 @@ const Academia = () => {
                     </div>
                     <div>
                       <img 
-                        src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930110468-6KZLHVX6HMRGD1VBH07Y/Screen+Shot+2022-01-11+at+11.41.41+AM.png" 
+                        src="/src/assets/bento1.webp" 
                         alt="NYU Circular Economy Course"
                         className="w-full rounded-lg shadow-lg"
                       />
@@ -47,7 +47,7 @@ const Academia = () => {
                     </div>
                     <div>
                       <img 
-                        src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930162467-4MZMPQ1Q3IAOAFRYDM2K/Screen+Shot+2022-01-11+at+11.42.36+AM.png" 
+                        src="/src/assets/bento2.webp" 
                         alt="NYU Product Design Course"
                         className="w-full rounded-lg shadow-lg"
                       />
@@ -67,7 +67,7 @@ const Academia = () => {
                     </div>
                     <div>
                       <img 
-                        src="https://images.squarespace-cdn.com/content/v1/55ab0412e4b08ed55aeb4881/1641930198842-4UV85K0W7IISWPQFK38E/Screen+Shot+2022-01-11+at+11.43.12+AM.png" 
+                        src="/src/assets/bento3.webp" 
                         alt="Pioneer Works Design Course"
                         className="w-full rounded-lg shadow-lg"
                       />
