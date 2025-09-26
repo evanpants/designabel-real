@@ -1,9 +1,6 @@
 import Navigation from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
 import { HeroCarousel } from "@/components/HeroCarousel";
-import doonaImage from "@/assets/doona-main.jpg";
-import briefPackImage from "@/assets/brief-pack.jpg";
-import inhomeImage from "@/assets/inhome-app-main.jpg";
 
 const Index = () => {
   return (
@@ -57,7 +54,7 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="aspect-square bg-muted rounded-lg overflow-hidden">
                   <img 
-                    src={doonaImage} 
+                    src="/assets/doona-main.jpg" 
                     alt="Doona Car Seat"
                     className="w-full h-full object-cover"
                   />
@@ -69,7 +66,7 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="aspect-square bg-muted rounded-lg overflow-hidden">
                   <img 
-                    src={briefPackImage} 
+                    src="/assets/brief-pack.jpg" 
                     alt="Brief Pack"
                     className="w-full h-full object-cover"
                   />
@@ -81,7 +78,7 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="aspect-square bg-muted rounded-lg overflow-hidden">
                   <img 
-                    src={inhomeImage} 
+                    src="/assets/inhome-app-main.jpg" 
                     alt="InHome App"
                     className="w-full h-full object-cover"
                   />

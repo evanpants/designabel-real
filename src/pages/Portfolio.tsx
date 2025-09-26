@@ -1,10 +1,5 @@
 import Navigation from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
-import doonaMain from "@/assets/doona-main.jpg";
-import doonaGif from "@/assets/doona-gif.gif";
-import newton from "@/assets/newton.png";
-import wimGif from "@/assets/wim-gif.gif";
-import wimSide from "@/assets/wim-side.jpg";
 
 const Portfolio = () => {
   return (
@@ -20,12 +15,12 @@ const Portfolio = () => {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
                   <img 
-                    src={doonaMain} 
+                    src="/assets/doona-main.jpg" 
                     alt="Doona: Stroller to Car Seat conversion"
                     className="w-full rounded-lg shadow-lg"
                   />
                   <img 
-                    src={doonaGif} 
+                    src="/assets/doona-gif.gif" 
                     alt="Doona conversion animation"
                     className="w-full rounded-lg shadow-lg"
                   />
@@ -64,7 +59,7 @@ const Portfolio = () => {
                 </div>
                 <div>
                   <img 
-                    src={newton} 
+                    src="/assets/newton.png" 
                     alt="Newton breathable crib mattress"
                     className="w-full rounded-lg shadow-lg"
                   />
@@ -77,12 +72,12 @@ const Portfolio = () => {
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
                   <img 
-                    src={wimGif} 
+                    src="/assets/wim-gif.gif" 
                     alt="Wim frozen yogurt machine mixing"
                     className="w-full rounded-lg shadow-lg"
                   />
                   <img 
-                    src={wimSide} 
+                    src="/assets/wim-side.jpg" 
                     alt="Wim machine open view"
                     className="w-full rounded-lg shadow-lg"
                   />
@@ -119,7 +114,7 @@ const Portfolio = () => {
                 </div>
                 <div>
                   <img 
-                    src="/src/assets/brief-pack.jpg" 
+                    src="/assets/brief-pack.jpg" 
                     alt="Whstl Brief-Pack convertible bag"
                     className="w-full rounded-lg shadow-lg"
                   />
