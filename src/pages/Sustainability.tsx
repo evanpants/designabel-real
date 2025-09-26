@@ -33,11 +33,11 @@ const Sustainability = () => {
               <div className="grid md:grid-cols-2 gap-6">
                 {[
                   { name: "Ellen MacArthur Foundation", url: "https://ellenmacarthurfoundation.org/" },
-                  { name: "Closed Loop Partners", url: "https://www.designabel.com/closedlooppartners" },
+                  { name: "Closed Loop Partners", url: "https://www.closedlooppartners.com/" },
                   { name: "GreenBiz", url: "https://www.greenbiz.com/collections/circular-economy" },
                   { name: "Upstream", url: "https://upstreamsolutions.org/" }
                 ].map((link) => (
-                  <Button key={link.name} variant="outline" className="h-auto p-4 justify-start">
+                  <Button key={link.name} variant="outline" className="h-auto p-4 justify-start" asChild>
                     <a href={link.url} target="_blank" rel="noopener noreferrer" className="w-full text-left">
                       {link.name}
                     </a>
@@ -69,7 +69,7 @@ const Sustainability = () => {
                   { name: "Climate Jobs List", url: "https://www.climatejobslist.com/" },
                   { name: "CTVC", url: "https://climate-tech-vc.pallet.com/jobs" }
                 ].map((link) => (
-                  <Button key={link.name} variant="outline" className="h-auto p-4">
+                  <Button key={link.name} variant="outline" className="h-auto p-4" asChild>
                     <a href={link.url} target="_blank" rel="noopener noreferrer">
                       {link.name}
                     </a>
@@ -97,7 +97,7 @@ const Sustainability = () => {
                   { name: "Terra.do", url: "https://terra.do/climate-education/" },
                   { name: "SOSV", url: "https://sosvclimatetech.com/" }
                 ].map((link) => (
-                  <Button key={link.name} variant="outline" className="h-auto p-4">
+                  <Button key={link.name} variant="outline" className="h-auto p-4" asChild>
                     <a href={link.url} target="_blank" rel="noopener noreferrer">
                       {link.name}
                     </a>
@@ -125,7 +125,7 @@ const Sustainability = () => {
                   { name: "Elemental Excelerator", url: "https://elementalexcelerator.com/" },
                   { name: "Remarkable Ventures", url: "https://www.remarkable.vc/" }
                 ].map((link) => (
-                  <Button key={link.name} variant="outline" className="h-auto p-4">
+                  <Button key={link.name} variant="outline" className="h-auto p-4" asChild>
                     <a href={link.url} target="_blank" rel="noopener noreferrer">
                       {link.name}
                     </a>

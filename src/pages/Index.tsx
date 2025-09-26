@@ -28,10 +28,10 @@ const Index = () => {
                 </div>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center sm:justify-end pt-6">
-                  <Button size="lg" className="px-8">
+                  <Button size="lg" className="px-8" asChild>
                     <a href="/portfolio">Physical Products</a>
                   </Button>
-                  <Button variant="outline" size="lg" className="px-8">
+                  <Button variant="outline" size="lg" className="px-8" asChild>
                     <a href="/digital-product">Digital Products</a>
                   </Button>
                 </div>

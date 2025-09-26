@@ -1,6 +1,37 @@
 import Navigation from "@/components/Navigation";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { useState } from "react";
 
 const Patents = () => {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+  const PatentCard = ({ src, alt, title, patentNumber }: { src: string, alt: string, title: string, patentNumber: string }) => (
+    <div className="p-6 bg-secondary rounded-lg text-center">
+      <Dialog>
+        <DialogTrigger asChild>
+          <img 
+            src={src} 
+            alt={alt}
+            className="w-full h-48 object-contain rounded-lg mb-4 cursor-pointer hover:opacity-80 transition-opacity"
+          />
+        </DialogTrigger>
+        <DialogContent className="max-w-4xl w-[90vw] max-h-[90vh] p-2">
+          <div className="flex items-center justify-center">
+            <img 
+              src={src}
+              alt={alt}
+              className="max-w-full max-h-[80vh] object-contain"
+            />
+          </div>
+        </DialogContent>
+      </Dialog>
+      <h4 className="text-lg font-semibold text-foreground mb-2">
+        {title}
+      </h4>
+      <p className="text-sm text-muted-foreground">{patentNumber}</p>
+    </div>
+  );
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -21,161 +52,96 @@ const Patents = () => {
                 <h3 className="text-2xl font-bold text-foreground">Filed Patents</h3>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  <div className="p-6 bg-secondary rounded-lg text-center">
-                    <img 
-                      src="/assets/egg-beater-patent.png" 
-                      alt="Egg beater patent"
-                      className="w-full h-48 object-contain rounded-lg mb-4"
-                    />
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      Egg beater
-                    </h4>
-                    <p className="text-sm text-muted-foreground">US D641587</p>
-                  </div>
+                  <PatentCard 
+                    src="/assets/egg-beater-patent.png" 
+                    alt="Egg beater patent"
+                    title="Egg beater"
+                    patentNumber="US D641587"
+                  />
 
-                  <div className="p-6 bg-secondary rounded-lg text-center">
-                    <img 
-                      src="/assets/kernel-removal-patent.png" 
-                      alt="Kernel removal device patent"
-                      className="w-full h-48 object-contain rounded-lg mb-4"
-                    />
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      Kernel removal device
-                    </h4>
-                    <p className="text-sm text-muted-foreground">US D620326</p>
-                  </div>
+                  <PatentCard 
+                    src="/assets/kernel-removal-patent.png" 
+                    alt="Kernel removal device patent"
+                    title="Kernel removal device"
+                    patentNumber="US D620326"
+                  />
 
-                  <div className="p-6 bg-secondary rounded-lg text-center">
-                    <img 
-                      src="/assets/baby-safety-seat-patent.png" 
-                      alt="Baby safety seat patent"
-                      className="w-full h-48 object-contain rounded-lg mb-4"
-                    />
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      Baby safety seat and a wheel for use therein
-                    </h4>
-                    <p className="text-sm text-muted-foreground">EP2848460B1 / USD791024S1</p>
-                  </div>
+                  <PatentCard 
+                    src="/assets/baby-safety-seat-patent.png" 
+                    alt="Baby safety seat patent"
+                    title="Baby safety seat and a wheel for use therein"
+                    patentNumber="EP2848460B1 / USD791024S1"
+                  />
 
-                  <div className="p-6 bg-secondary rounded-lg text-center">
-                    <img 
-                      src="/assets/corn-holder-patent.png" 
-                      alt="Corn holder storage system patent"
-                      className="w-full h-48 object-contain rounded-lg mb-4"
-                    />
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      Corn holder storage system
-                    </h4>
-                    <p className="text-sm text-muted-foreground">US20120097575A1</p>
-                  </div>
+                  <PatentCard 
+                    src="/assets/corn-holder-patent.png" 
+                    alt="Corn holder storage system patent"
+                    title="Corn holder storage system"
+                    patentNumber="US20120097575A1"
+                  />
 
-                  <div className="p-6 bg-secondary rounded-lg text-center">
-                    <img 
-                      src="/assets/frozen-food-vessel-patent.png" 
-                      alt="Vessel for preparing frozen food patent"
-                      className="w-full h-48 object-contain rounded-lg mb-4"
-                    />
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      Vessel, system, and method for preparing a frozen food
-                    </h4>
-                    <p className="text-sm text-muted-foreground">US20170188600A1</p>
-                  </div>
+                  <PatentCard 
+                    src="/assets/frozen-food-vessel-patent.png" 
+                    alt="Vessel for preparing frozen food patent"
+                    title="Vessel, system, and method for preparing a frozen food"
+                    patentNumber="US20170188600A1"
+                  />
 
-                  <div className="p-6 bg-secondary rounded-lg text-center">
-                    <img 
-                      src="/assets/separable-scissors-patent.png" 
-                      alt="Separable scissors patent"
-                      className="w-full h-48 object-contain rounded-lg mb-4"
-                    />
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      Separable scissors with elastic stoppers
-                    </h4>
-                    <p className="text-sm text-muted-foreground">WO2012030451A1</p>
-                  </div>
+                  <PatentCard 
+                    src="/assets/separable-scissors-patent.png" 
+                    alt="Separable scissors patent"
+                    title="Separable scissors with elastic stoppers"
+                    patentNumber="WO2012030451A1"
+                  />
 
-                  <div className="p-6 bg-secondary rounded-lg text-center">
-                    <img 
-                      src="/assets/serving-unit-patent.png" 
-                      alt="Serving unit and serving kit patent"
-                      className="w-full h-48 object-contain rounded-lg mb-4"
-                    />
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      Serving unit and serving kit
-                    </h4>
-                    <p className="text-sm text-muted-foreground">US20170225879A1</p>
-                  </div>
+                  <PatentCard 
+                    src="/assets/serving-unit-patent.png" 
+                    alt="Serving unit and serving kit patent"
+                    title="Serving unit and serving kit"
+                    patentNumber="US20170225879A1"
+                  />
 
-                  <div className="p-6 bg-secondary rounded-lg text-center">
-                    <img 
-                      src="/assets/corn-holder-storage-patent.png" 
-                      alt="Corn holder storage device patent"
-                      className="w-full h-48 object-contain rounded-lg mb-4"
-                    />
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      Corn holder storage device
-                    </h4>
-                    <p className="text-sm text-muted-foreground">US D618969 S1</p>
-                  </div>
+                  <PatentCard 
+                    src="/assets/corn-holder-storage-patent.png" 
+                    alt="Corn holder storage device patent"
+                    title="Corn holder storage device"
+                    patentNumber="US D618969 S1"
+                  />
 
-                  <div className="p-6 bg-secondary rounded-lg text-center">
-                    <img 
-                      src="/assets/container-655582-patent.png" 
-                      alt="Container patent"
-                      className="w-full h-48 object-contain rounded-lg mb-4"
-                    />
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      Container
-                    </h4>
-                    <p className="text-sm text-muted-foreground">US D655582 S1</p>
-                  </div>
+                  <PatentCard 
+                    src="/assets/container-655582-patent.png" 
+                    alt="Container patent"
+                    title="Container"
+                    patentNumber="US D655582 S1"
+                  />
 
-                  <div className="p-6 bg-secondary rounded-lg text-center">
-                    <img 
-                      src="/assets/container-694584-patent.png" 
-                      alt="Container configuration patent"
-                      className="w-full h-48 object-contain rounded-lg mb-4"
-                    />
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      Container configuration
-                    </h4>
-                    <p className="text-sm text-muted-foreground">US D694584 S1</p>
-                  </div>
+                  <PatentCard 
+                    src="/assets/container-694584-patent.png" 
+                    alt="Container configuration patent"
+                    title="Container configuration"
+                    patentNumber="US D694584 S1"
+                  />
 
-                  <div className="p-6 bg-secondary rounded-lg text-center">
-                    <img 
-                      src="/assets/interlocking-container-patent.png" 
-                      alt="Interlocking container patent"
-                      className="w-full h-48 object-contain rounded-lg mb-4"
-                    />
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      Interlocking container
-                    </h4>
-                    <p className="text-sm text-muted-foreground">US D681395 S1</p>
-                  </div>
+                  <PatentCard 
+                    src="/assets/interlocking-container-patent.png" 
+                    alt="Interlocking container patent"
+                    title="Interlocking container"
+                    patentNumber="US D681395 S1"
+                  />
 
-                  <div className="p-6 bg-secondary rounded-lg text-center">
-                    <img 
-                      src="/assets/container-694628-patent.png" 
-                      alt="Container configuration patent"
-                      className="w-full h-48 object-contain rounded-lg mb-4"
-                    />
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      Container configuration
-                    </h4>
-                    <p className="text-sm text-muted-foreground">US D694628 S1</p>
-                  </div>
+                  <PatentCard 
+                    src="/assets/container-694628-patent.png" 
+                    alt="Container configuration patent"
+                    title="Container configuration"
+                    patentNumber="US D694628 S1"
+                  />
 
-                  <div className="p-6 bg-secondary rounded-lg text-center">
-                    <img 
-                      src="/assets/container-694585-patent.png" 
-                      alt="Container configuration patent"
-                      className="w-full h-48 object-contain rounded-lg mb-4"
-                    />
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      Container configuration
-                    </h4>
-                    <p className="text-sm text-muted-foreground">US D694585 S1</p>
-                  </div>
+                  <PatentCard 
+                    src="/assets/container-694585-patent.png" 
+                    alt="Container configuration patent"
+                    title="Container configuration"
+                    patentNumber="US D694585 S1"
+                  />
                 </div>
               </div>
 

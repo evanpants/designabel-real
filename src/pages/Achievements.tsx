@@ -97,8 +97,8 @@ const Achievements = () => {
                     FoodHacks Panel Moderator
                   </h2>
                   <p className="text-muted-foreground">October 2023</p>
-                  <Button variant="outline">
-                    <a href="https://www.youtube.com/watch?feature=youtu.be&v=HMR6rvG_dYc" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" asChild>
+                    <a href="https://www.youtube.com/embed/HMR6rvG_dYc" target="_blank" rel="noopener noreferrer">
                       Video Recording
                     </a>
                   </Button>
