@@ -34,7 +34,7 @@ const Bags = () => {
               
               <div className="relative">
                 <img 
-                  src="/src/assets/bag-hero-main.webp" 
+                  src="/assets/bag-hero-main.webp" 
                   alt="GOOSE Brief-Pack convertible bag"
                   className="w-full rounded-lg shadow-2xl"
                 />

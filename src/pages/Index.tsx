@@ -81,7 +81,7 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="aspect-square bg-muted rounded-lg overflow-hidden">
                   <img 
-                    src="/src/assets/inhome-full.jpg" 
+                    src={inhomeImage} 
                     alt="InHome App"
                     className="w-full h-full object-cover"
                   />

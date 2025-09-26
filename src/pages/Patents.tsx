@@ -92,6 +92,90 @@ const Patents = () => {
                     </h4>
                     <p className="text-sm text-muted-foreground">WO2012030451A1</p>
                   </div>
+
+                  <div className="p-6 bg-secondary rounded-lg text-center">
+                    <img 
+                      src="/assets/serving-unit-patent.png" 
+                      alt="Serving unit and serving kit patent"
+                      className="w-full h-48 object-contain rounded-lg mb-4"
+                    />
+                    <h4 className="text-lg font-semibold text-foreground mb-2">
+                      Serving unit and serving kit
+                    </h4>
+                    <p className="text-sm text-muted-foreground">US20170225879A1</p>
+                  </div>
+
+                  <div className="p-6 bg-secondary rounded-lg text-center">
+                    <img 
+                      src="/assets/corn-holder-storage-patent.png" 
+                      alt="Corn holder storage device patent"
+                      className="w-full h-48 object-contain rounded-lg mb-4"
+                    />
+                    <h4 className="text-lg font-semibold text-foreground mb-2">
+                      Corn holder storage device
+                    </h4>
+                    <p className="text-sm text-muted-foreground">US D618969 S1</p>
+                  </div>
+
+                  <div className="p-6 bg-secondary rounded-lg text-center">
+                    <img 
+                      src="/assets/container-655582-patent.png" 
+                      alt="Container patent"
+                      className="w-full h-48 object-contain rounded-lg mb-4"
+                    />
+                    <h4 className="text-lg font-semibold text-foreground mb-2">
+                      Container
+                    </h4>
+                    <p className="text-sm text-muted-foreground">US D655582 S1</p>
+                  </div>
+
+                  <div className="p-6 bg-secondary rounded-lg text-center">
+                    <img 
+                      src="/assets/container-694584-patent.png" 
+                      alt="Container configuration patent"
+                      className="w-full h-48 object-contain rounded-lg mb-4"
+                    />
+                    <h4 className="text-lg font-semibold text-foreground mb-2">
+                      Container configuration
+                    </h4>
+                    <p className="text-sm text-muted-foreground">US D694584 S1</p>
+                  </div>
+
+                  <div className="p-6 bg-secondary rounded-lg text-center">
+                    <img 
+                      src="/assets/interlocking-container-patent.png" 
+                      alt="Interlocking container patent"
+                      className="w-full h-48 object-contain rounded-lg mb-4"
+                    />
+                    <h4 className="text-lg font-semibold text-foreground mb-2">
+                      Interlocking container
+                    </h4>
+                    <p className="text-sm text-muted-foreground">US D681395 S1</p>
+                  </div>
+
+                  <div className="p-6 bg-secondary rounded-lg text-center">
+                    <img 
+                      src="/assets/container-694628-patent.png" 
+                      alt="Container configuration patent"
+                      className="w-full h-48 object-contain rounded-lg mb-4"
+                    />
+                    <h4 className="text-lg font-semibold text-foreground mb-2">
+                      Container configuration
+                    </h4>
+                    <p className="text-sm text-muted-foreground">US D694628 S1</p>
+                  </div>
+
+                  <div className="p-6 bg-secondary rounded-lg text-center">
+                    <img 
+                      src="/assets/container-694585-patent.png" 
+                      alt="Container configuration patent"
+                      className="w-full h-48 object-contain rounded-lg mb-4"
+                    />
+                    <h4 className="text-lg font-semibold text-foreground mb-2">
+                      Container configuration
+                    </h4>
+                    <p className="text-sm text-muted-foreground">US D694585 S1</p>
+                  </div>
                 </div>
               </div>
 

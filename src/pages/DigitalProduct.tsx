@@ -21,7 +21,7 @@ const DigitalProduct = () => {
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                   <img 
-                    src="/src/assets/inhome-full.jpg" 
+                    src="/assets/inhome-full.jpg" 
                     alt="Walmart InHome App Interface"
                     className="w-full rounded-lg shadow-lg"
                   />
@@ -62,7 +62,7 @@ const DigitalProduct = () => {
                 </div>
                 <div>
                   <img 
-                    src="/src/assets/frank-1.png" 
+                    src="/assets/frank-1.png" 
                     alt="Frank App Interface"
                     className="w-full rounded-lg shadow-lg"
                   />
