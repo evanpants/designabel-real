@@ -27,7 +27,7 @@ const Academia = () => {
                     </div>
                     <div>
                       <img 
-                        src="/src/assets/bento1.webp" 
+                        src="/assets/nyu-circular-economy.png" 
                         alt="NYU Circular Economy Course"
                         className="w-full rounded-lg shadow-lg"
                       />
@@ -47,7 +47,7 @@ const Academia = () => {
                     </div>
                     <div>
                       <img 
-                        src="/src/assets/bento2.webp" 
+                        src="/assets/nyu-product-design.png" 
                         alt="NYU Product Design Course"
                         className="w-full rounded-lg shadow-lg"
                       />
@@ -67,7 +67,7 @@ const Academia = () => {
                     </div>
                     <div>
                       <img 
-                        src="/src/assets/bento3.webp" 
+                        src="/assets/pioneer-works-design.png" 
                         alt="Pioneer Works Design Course"
                         className="w-full rounded-lg shadow-lg"
                       />

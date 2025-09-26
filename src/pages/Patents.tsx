@@ -20,152 +20,77 @@ const Patents = () => {
               <div className="space-y-8">
                 <h3 className="text-2xl font-bold text-foreground">Filed Patents</h3>
                 
-                <div className="space-y-6">
-                  <div className="p-6 bg-secondary rounded-lg">
-                    <div className="grid md:grid-cols-2 gap-6 items-center mb-4">
-                      <div>
-                        <h4 className="text-xl font-semibold text-foreground mb-2">
-                          Convertible Carrying Device
-                        </h4>
-                        <p className="text-sm text-muted-foreground mb-2">US Patent Application No. 16/253,416</p>
-                      </div>
-                      <div>
-                        <img 
-                          src="/src/assets/bento4.webp" 
-                          alt="Convertible Carrying Device Patent"
-                          className="w-full rounded-lg shadow-lg"
-                        />
-                      </div>
-                    </div>
-                    <p className="text-muted-foreground leading-relaxed">
-                      A convertible carrying device includes a body portion having a front side and a back side, and a pair of straps coupled to the back side of the body portion. Each strap includes a first segment and a second segment that are hingedly coupled together at a hinge. The straps are reconfigurable between a briefcase configuration and a backpack configuration by rotating the first and second segments about their respective hinges.
-                    </p>
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <div className="p-6 bg-secondary rounded-lg text-center">
+                    <img 
+                      src="/assets/egg-beater-patent.png" 
+                      alt="Egg beater patent"
+                      className="w-full h-48 object-contain rounded-lg mb-4"
+                    />
+                    <h4 className="text-lg font-semibold text-foreground mb-2">
+                      Egg beater
+                    </h4>
+                    <p className="text-sm text-muted-foreground">US D641587</p>
                   </div>
 
-                  <div className="p-6 bg-secondary rounded-lg">
-                    <div className="grid md:grid-cols-2 gap-6 items-center mb-4">
-                      <div>
-                        <h4 className="text-xl font-semibold text-foreground mb-2">
-                          Child Safety Seat with Integrated Mobility System
-                        </h4>
-                        <p className="text-sm text-muted-foreground mb-2">US Patent No. 10,569,763</p>
-                      </div>
-                      <div>
-                        <img 
-                          src="/src/assets/doona-patent.webp" 
-                          alt="Child Safety Seat Patent"
-                          className="w-full rounded-lg shadow-lg"
-                        />
-                      </div>
-                    </div>
-                    <p className="text-muted-foreground leading-relaxed">
-                      A child safety seat includes a seat portion configured to accommodate a child, a base portion configured to support the seat portion, and a wheel system coupled to the base portion. The wheel system includes a plurality of wheels that are selectively deployable from a retracted position to an extended position to enable the child safety seat to function as a stroller when the wheels are in the extended position.
-                    </p>
+                  <div className="p-6 bg-secondary rounded-lg text-center">
+                    <img 
+                      src="/assets/kernel-removal-patent.png" 
+                      alt="Kernel removal device patent"
+                      className="w-full h-48 object-contain rounded-lg mb-4"
+                    />
+                    <h4 className="text-lg font-semibold text-foreground mb-2">
+                      Kernel removal device
+                    </h4>
+                    <p className="text-sm text-muted-foreground">US D620326</p>
                   </div>
 
-                  <div className="p-6 bg-secondary rounded-lg">
-                    <div className="grid md:grid-cols-2 gap-6 items-center mb-4">
-                      <div>
-                        <h4 className="text-xl font-semibold text-foreground mb-2">
-                          Breathable Infant Sleep Surface
-                        </h4>
-                        <p className="text-sm text-muted-foreground mb-2">US Patent Application No. 17/123,456</p>
-                      </div>
-                      <div>
-                        <img 
-                          src="/src/assets/container1.webp" 
-                          alt="Breathable Infant Sleep Surface Patent"
-                          className="w-full rounded-lg shadow-lg"
-                        />
-                      </div>
-                    </div>
-                    <p className="text-muted-foreground leading-relaxed">
-                      An infant sleep surface comprising a core structure having a plurality of interconnected spacer fabric layers that create a three-dimensional breathable matrix. The core structure is designed to allow air to flow freely through the mattress while providing adequate support for an infant, reducing the risk of rebreathing carbon dioxide and overheating.
-                    </p>
+                  <div className="p-6 bg-secondary rounded-lg text-center">
+                    <img 
+                      src="/assets/baby-safety-seat-patent.png" 
+                      alt="Baby safety seat patent"
+                      className="w-full h-48 object-contain rounded-lg mb-4"
+                    />
+                    <h4 className="text-lg font-semibold text-foreground mb-2">
+                      Baby safety seat and a wheel for use therein
+                    </h4>
+                    <p className="text-sm text-muted-foreground">EP2848460B1 / USD791024S1</p>
                   </div>
 
-                  <div className="p-6 bg-secondary rounded-lg">
-                    <div className="grid md:grid-cols-2 gap-6 items-center mb-4">
-                      <div>
-                        <h4 className="text-xl font-semibold text-foreground mb-2">
-                          Automated Frozen Dessert Preparation System
-                        </h4>
-                        <p className="text-sm text-muted-foreground mb-2">US Patent No. 10,123,456</p>
-                      </div>
-                      <div>
-                        <img 
-                          src="/src/assets/wim-patent.webp" 
-                          alt="Automated Frozen Dessert System Patent"
-                          className="w-full rounded-lg shadow-lg"
-                        />
-                      </div>
-                    </div>
-                    <p className="text-muted-foreground leading-relaxed">
-                      An automated system for preparing frozen desserts comprising a mixing chamber with temperature control elements, automated ingredient dispensing mechanisms, and a control system that manages the sequential mixing, aerating, and freezing processes. The system includes sensors for monitoring texture consistency and temperature control algorithms for optimal product quality.
-                    </p>
+                  <div className="p-6 bg-secondary rounded-lg text-center">
+                    <img 
+                      src="/assets/corn-holder-patent.png" 
+                      alt="Corn holder storage system patent"
+                      className="w-full h-48 object-contain rounded-lg mb-4"
+                    />
+                    <h4 className="text-lg font-semibold text-foreground mb-2">
+                      Corn holder storage system
+                    </h4>
+                    <p className="text-sm text-muted-foreground">US20120097575A1</p>
                   </div>
 
-                  <div className="p-6 bg-secondary rounded-lg">
-                    <div className="grid md:grid-cols-2 gap-6 items-center mb-4">
-                      <div>
-                        <h4 className="text-xl font-semibold text-foreground mb-2">
-                          Kitchen Utensil with Enhanced Grip
-                        </h4>
-                        <p className="text-sm text-muted-foreground mb-2">US Patent No. 9,987,654</p>
-                      </div>
-                      <div>
-                        <img 
-                          src="/src/assets/scissor-patent.webp" 
-                          alt="Kitchen Utensil Patent"
-                          className="w-full rounded-lg shadow-lg"
-                        />
-                      </div>
-                    </div>
-                    <p className="text-muted-foreground leading-relaxed">
-                      A kitchen utensil comprising a handle with ergonomically designed grip features, including textured surfaces and finger indentations for improved control during use. The design incorporates safety features and enhanced functionality for food preparation tasks.
-                    </p>
+                  <div className="p-6 bg-secondary rounded-lg text-center">
+                    <img 
+                      src="/assets/frozen-food-vessel-patent.png" 
+                      alt="Vessel for preparing frozen food patent"
+                      className="w-full h-48 object-contain rounded-lg mb-4"
+                    />
+                    <h4 className="text-lg font-semibold text-foreground mb-2">
+                      Vessel, system, and method for preparing a frozen food
+                    </h4>
+                    <p className="text-sm text-muted-foreground">US20170188600A1</p>
                   </div>
 
-                  <div className="p-6 bg-secondary rounded-lg">
-                    <div className="grid md:grid-cols-2 gap-6 items-center mb-4">
-                      <div>
-                        <h4 className="text-xl font-semibold text-foreground mb-2">
-                          Food Processing Device
-                        </h4>
-                        <p className="text-sm text-muted-foreground mb-2">US Patent No. 8,765,432</p>
-                      </div>
-                      <div>
-                        <img 
-                          src="/src/assets/egg-patent.webp" 
-                          alt="Food Processing Device Patent"
-                          className="w-full rounded-lg shadow-lg"
-                        />
-                      </div>
-                    </div>
-                    <p className="text-muted-foreground leading-relaxed">
-                      A specialized food processing device designed for efficient mixing and beating operations. The device features an ergonomic handle design and optimized beater configuration for improved performance in food preparation applications.
-                    </p>
-                  </div>
-
-                  <div className="p-6 bg-secondary rounded-lg">
-                    <div className="grid md:grid-cols-2 gap-6 items-center mb-4">
-                      <div>
-                        <h4 className="text-xl font-semibold text-foreground mb-2">
-                          Sustainable Packaging System
-                        </h4>
-                        <p className="text-sm text-muted-foreground mb-2">US Patent Application No. 18/456,789</p>
-                      </div>
-                      <div>
-                        <img 
-                          src="/src/assets/corn3.webp" 
-                          alt="Sustainable Packaging Patent"
-                          className="w-full rounded-lg shadow-lg"
-                        />
-                      </div>
-                    </div>
-                    <p className="text-muted-foreground leading-relaxed">
-                      An innovative packaging system utilizing biodegradable materials derived from agricultural waste. The system includes modular components that can be assembled into various configurations while maintaining structural integrity and environmental sustainability throughout the product lifecycle.
-                    </p>
+                  <div className="p-6 bg-secondary rounded-lg text-center">
+                    <img 
+                      src="/assets/separable-scissors-patent.png" 
+                      alt="Separable scissors patent"
+                      className="w-full h-48 object-contain rounded-lg mb-4"
+                    />
+                    <h4 className="text-lg font-semibold text-foreground mb-2">
+                      Separable scissors with elastic stoppers
+                    </h4>
+                    <p className="text-sm text-muted-foreground">WO2012030451A1</p>
                   </div>
                 </div>
               </div>
