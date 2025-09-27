@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
 import { HeroCarousel } from "@/components/HeroCarousel";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -29,10 +30,10 @@ const Index = () => {
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center sm:justify-end pt-6">
                   <Button size="lg" className="px-8" asChild>
-                    <a href="/portfolio">Physical Products</a>
+                    <Link to="/portfolio">Physical Products</Link>
                   </Button>
                   <Button variant="outline" size="lg" className="px-8" asChild>
-                    <a href="/digital-product">Digital Products</a>
+                    <Link to="/digital-product">Digital Products</Link>
                   </Button>
                 </div>
               </div>
