@@ -18,15 +18,15 @@ const Navigation = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/75">
       <div className="container mx-auto px-4 sm:px-6 py-4">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between min-w-0">
           <Link 
             to="/" 
-            className="text-2xl font-brand font-light tracking-wide text-foreground hover:text-muted-foreground transition-colors lowercase"
+            className="text-2xl font-brand font-light tracking-wide text-foreground hover:text-muted-foreground transition-colors lowercase flex-shrink-0"
           >
             designabel
           </Link>
           
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-8 ml-8 lg:ml-12">
             {navItems.map((item) => (
               <Link
                 key={item.path}
