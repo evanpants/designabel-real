@@ -1,8 +1,17 @@
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 const Navigation = () => {
   const location = useLocation();
+  const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
     { name: "PHYSICAL PRODUCTS", path: "/portfolio" },
@@ -26,13 +35,14 @@ const Navigation = () => {
             designabel
           </Link>
           
-          <nav className="hidden md:flex items-center space-x-8 ml-8 lg:ml-12">
+          {/* Desktop Navigation */}
+          <nav className="hidden lg:flex items-center space-x-8 ml-8 xl:ml-12">
             {navItems.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
                 className={cn(
-                  "text-sm font-medium tracking-wide transition-colors hover:text-foreground",
+                  "text-sm font-medium tracking-wide transition-colors hover:text-foreground whitespace-nowrap",
                   location.pathname === item.path 
                     ? "text-foreground border-b border-foreground pb-1" 
                     : "text-muted-foreground"
@@ -42,6 +52,39 @@ const Navigation = () => {
               </Link>
             ))}
           </nav>
+
+          {/* Mobile Navigation */}
+          <Sheet open={isOpen} onOpenChange={setIsOpen}>
+            <SheetTrigger asChild>
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                className="lg:hidden"
+                aria-label="Open navigation menu"
+              >
+                <Menu className="h-6 w-6" />
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+              <div className="flex flex-col space-y-6 mt-8">
+                {navItems.map((item) => (
+                  <Link
+                    key={item.path}
+                    to={item.path}
+                    onClick={() => setIsOpen(false)}
+                    className={cn(
+                      "text-lg font-medium tracking-wide transition-colors hover:text-foreground",
+                      location.pathname === item.path 
+                        ? "text-foreground border-l-2 border-foreground pl-4" 
+                        : "text-muted-foreground pl-4"
+                    )}
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+              </div>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </header>
