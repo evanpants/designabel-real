@@ -30,7 +30,7 @@ const Index = () => {
                   Leadership
                 </h1>
                 
-                <div className={`space-y-3 text-lg text-left max-w-md mx-auto hero-text-transition ${textColor}`}>
+                <div className={`space-y-3 text-lg text-left md:text-left max-w-md mx-auto md:mx-0 hero-text-transition font-bold ${textColor}`}>
                   {bulletLinks.map((link) => (
                     <Link 
                       key={link.path}

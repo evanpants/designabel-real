@@ -17,6 +17,33 @@ const Achievements = () => {
               </p>
             </section>
 
+            {/* 2022 Reusies Winner */}
+            <section className="space-y-8">
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                <div className="space-y-4">
+                  <h2 className="text-3xl font-bold text-foreground">
+                    2022 Reusies Winner
+                  </h2>
+                  <p className="text-muted-foreground">Most Innovative Reuse Company - Enabling Technology</p>
+                  <p className="text-muted-foreground">
+                    Recognized for creating a reusable packaging service at The Rounds that eliminates tons of consumer packaging waste.
+                  </p>
+                  <Button variant="outline" asChild>
+                    <a href="https://upstreamsolutions.org/blog/reusies-2022-press-release" target="_blank" rel="noopener noreferrer">
+                      Read Press Release
+                    </a>
+                  </Button>
+                </div>
+                <div>
+                  <img 
+                    src="/assets/rounds-mason.png" 
+                    alt="The Rounds reusable packaging"
+                    className="w-full rounded-lg shadow-lg"
+                  />
+                </div>
+              </div>
+            </section>
+
             {/* Terra.do */}
             <section className="space-y-8">
               <div className="grid md:grid-cols-2 gap-8 items-center">

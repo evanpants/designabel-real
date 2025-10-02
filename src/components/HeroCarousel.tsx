@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 
 const images = [
-  { src: "/assets/dc-anthem-earth-day-rcup-rounds.png", textColor: "text-foreground" },
-  { src: "/assets/whstl-hero.jpg", textColor: "text-foreground" },
-  { src: "/assets/ohnut-and-mold.jpg", textColor: "text-foreground" },
-  { src: "/assets/wim-lid.jpg", textColor: "text-foreground" },
+  { src: "/assets/dc-anthem-earth-day-rcup-rounds.png", textColor: "text-[#0ea5e9]" }, // electric blue
+  { src: "/assets/whstl-hero.jpg", textColor: "text-[#ff6b35]" }, // bold bright orange
+  { src: "/assets/ohnut-and-mold.jpg", textColor: "text-[#ef4444]" }, // bright bold red
+  { src: "/assets/wim-lid.jpg", textColor: "text-[#22c55e]" }, // neon green
   { src: "/assets/walmart-replenish.jpg", textColor: "text-white" },
-  { src: "/assets/buzzle.jpg", textColor: "text-foreground" },
+  { src: "/assets/buzzle.jpg", textColor: "text-[#a855f7]" }, // bold purple
 ];
 
 export const HeroCarousel = () => {

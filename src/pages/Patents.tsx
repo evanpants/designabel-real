@@ -88,7 +88,7 @@ const Patents = () => {
                   />
 
                   <PatentCard 
-                    src="/assets/separable-scissors-patent.png" 
+                    src="/assets/scissor-patent.png" 
                     alt="Separable scissors patent"
                     title="Separable scissors with elastic stoppers"
                     patentNumber="WO2012030451A1"
