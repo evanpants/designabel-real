@@ -16,6 +16,7 @@ const Navigation = () => {
   const navItems = [
     { name: "PHYSICAL PRODUCTS", path: "/portfolio" },
     { name: "DIGITAL PRODUCTS", path: "/digital-product" },
+    { name: "SERVICE DESIGN", path: "/service-design" },
     { name: "BAGS", path: "/bags" },
     { name: "SUSTAINABILITY", path: "/sustainability" },
     { name: "ACHIEVEMENTS", path: "/achievements" },

@@ -1,9 +1,17 @@
 import Navigation from "@/components/Navigation";
-import { Button } from "@/components/ui/button";
-import { HeroCarousel } from "@/components/HeroCarousel";
+import { HeroCarousel, useCurrentCarouselTextColor } from "@/components/HeroCarousel";
 import { Link } from "react-router-dom";
 
 const Index = () => {
+  const textColor = useCurrentCarouselTextColor();
+
+  const bulletLinks = [
+    { text: "Physical Products and Manufacturing", path: "/portfolio" },
+    { text: "Digital Product", path: "/digital-product" },
+    { text: "Service Design", path: "/service-design" },
+    { text: "Sustainability", path: "/sustainability" },
+  ];
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -14,27 +22,24 @@ const Index = () => {
           <HeroCarousel />
           
           <div className="relative container mx-auto px-4 sm:px-6">
-            <div className="max-w-2xl">
-              <div className="space-y-6 text-right ml-auto">
-                <h2 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
-                  Product & Operations<br />
+            <div className="max-w-2xl mx-auto">
+              <div className="space-y-8 text-center">
+                <h1 className={`text-4xl md:text-6xl font-bold leading-tight hero-text-transition ${textColor}`}>
+                  Product,<br />
+                  Operations,<br />
                   Leadership
-                </h2>
+                </h1>
                 
-                <div className="space-y-3 text-lg text-foreground">
-                  <p>• Physical Product & Manufacturing</p>
-                  <p>• Digital Product</p>
-                  <p>• Service Design</p>
-                  <p>• Sustainability</p>
-                </div>
-                
-                <div className="flex flex-col sm:flex-row gap-4 justify-center sm:justify-end pt-6">
-                  <Button size="lg" className="px-8" asChild>
-                    <Link to="/portfolio">Physical Products</Link>
-                  </Button>
-                  <Button variant="outline" size="lg" className="px-8" asChild>
-                    <Link to="/digital-product">Digital Products</Link>
-                  </Button>
+                <div className={`space-y-3 text-lg text-left max-w-md mx-auto hero-text-transition ${textColor}`}>
+                  {bulletLinks.map((link) => (
+                    <Link 
+                      key={link.path}
+                      to={link.path}
+                      className="block hover:underline hover:translate-x-2 transition-transform"
+                    >
+                      • {link.text}
+                    </Link>
+                  ))}
                 </div>
               </div>
             </div>
