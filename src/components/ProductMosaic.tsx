@@ -21,6 +21,7 @@ const products: Product[] = [
     name: "Egg Beater",
     mainImage: "/assets/egg-beater-main.jpg",
     carouselImages: [
+      "/assets/egg-beater-main.jpg",
       "/assets/egg-beater-mixer4.jpg",
       "/assets/egg-beater-cycle-test.jpg",
       "/assets/egg-beater-options.jpg",
@@ -30,6 +31,49 @@ const products: Product[] = [
       "/assets/egg-beater-025.jpg",
       "/assets/egg-beater-tooling.jpg",
     ],
+  },
+  {
+    id: "nylon-tools",
+    name: "Nylon Tools",
+    mainImage: "/assets/oxo-nylon.jpg",
+    carouselImages: [
+      "/assets/oxo-nylon.jpg",
+      "/assets/nylon-proto.jpg",
+    ],
+  },
+  {
+    id: "cookie-jar",
+    name: "Cookie Jar",
+    mainImage: "/assets/oxo-cookie.jpg",
+    carouselImages: ["/assets/oxo-cookie.jpg"],
+  },
+  {
+    id: "glass-storage",
+    name: "Glass Storage",
+    mainImage: "/assets/oxo-flip.jpg",
+    carouselImages: ["/assets/oxo-flip.jpg"],
+  },
+  {
+    id: "bento",
+    name: "Bento",
+    mainImage: "/assets/oxo-bento.jpg",
+    carouselImages: ["/assets/oxo-bento.jpg"],
+  },
+  {
+    id: "rmdlo",
+    name: "RMDLO",
+    mainImage: "/assets/rmdlo-nice.jpg",
+    carouselImages: [
+      "/assets/rmdlo-nice.jpg",
+      "/assets/rmdlo.gif",
+      "/assets/rmdlo-cad.jpg",
+    ],
+  },
+  {
+    id: "scissor",
+    name: "Scissor",
+    mainImage: "/assets/separable-scissors.png",
+    carouselImages: ["/assets/separable-scissors.png"],
   },
 ];
 

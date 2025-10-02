@@ -24,13 +24,13 @@ const Index = () => {
           <div className="relative container mx-auto px-4 sm:px-6">
             <div className="max-w-2xl mx-auto">
               <div className="space-y-8 text-center">
-                <h1 className={`text-4xl md:text-6xl font-bold leading-tight hero-text-transition ${textColor}`}>
+                <h1 className={`text-4xl md:text-6xl font-bold leading-tight hero-text-transition ${textColor} [text-shadow:_-1px_-1px_0_#000,_1px_-1px_0_#000,_-1px_1px_0_#000,_1px_1px_0_#000]`}>
                   Product,<br />
                   Operations,<br />
                   Leadership
                 </h1>
                 
-                <div className={`space-y-3 text-lg text-left md:text-left max-w-md mx-auto md:mx-0 hero-text-transition font-bold ${textColor}`}>
+                <div className={`space-y-3 text-lg text-left md:text-left max-w-md mx-auto md:mx-0 hero-text-transition font-bold ${textColor} [text-shadow:_-1px_-1px_0_#000,_1px_-1px_0_#000,_-1px_1px_0_#000,_1px_1px_0_#000]`}>
                   {bulletLinks.map((link) => (
                     <Link 
                       key={link.path}
