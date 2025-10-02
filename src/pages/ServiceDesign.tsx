@@ -17,7 +17,7 @@ const ServiceDesign = () => {
 
           {/* The Rounds Project */}
           <section className="mb-20">
-            <div className="grid md:grid-cols-2 gap-12 items-start">
+            <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-start">
               <div>
                 <h2 className="text-3xl font-bold text-foreground mb-6">The Rounds</h2>
                 <p className="text-lg text-muted-foreground mb-6">
@@ -88,7 +88,7 @@ const ServiceDesign = () => {
 
           {/* Walmart InHome Delivery Project */}
           <section>
-            <div className="grid md:grid-cols-2 gap-12 items-start">
+            <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-start">
               <div className="space-y-6">
                 <img 
                   src="/assets/walmart-inhome-delivery.jpg" 

@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
+import { ProductMosaic } from "@/components/ProductMosaic";
 
 const Portfolio = () => {
   return (
@@ -121,6 +122,9 @@ const Portfolio = () => {
                 </div>
               </div>
             </section>
+
+            {/* Product Mosaic */}
+            <ProductMosaic />
 
           </div>
         </div>
