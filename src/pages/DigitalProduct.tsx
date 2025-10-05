@@ -41,6 +41,7 @@ const DigitalProduct = () => {
                   </ul>
                 </div>
               </div>
+              <div className="border-t border-border mt-12"></div>
             </section>
 
             {/* Frank Section */}

@@ -83,7 +83,7 @@ const ServiceDesign = () => {
             </div>
             
             {/* Separator line */}
-            <div className="border-t border-foreground/20 mt-16"></div>
+            <div className="border-t border-border mt-16"></div>
           </section>
 
           {/* Walmart InHome Delivery Project */}
