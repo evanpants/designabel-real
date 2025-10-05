@@ -16,20 +16,20 @@ const DigitalProduct = () => {
               </p>
             </section>
 
-            {/* InHome App Section */}
+            {/* InHome Section */}
             <section className="space-y-8">
+              <h2 className="text-3xl font-bold text-foreground">
+                Walmart InHome
+              </h2>
               <div className="grid md:grid-cols-2 gap-8 items-center">
-                <div>
+                <div className="order-1 md:order-1">
                   <img 
                     src="/assets/inhome-full.jpg" 
                     alt="Walmart InHome App Interface"
                     className="w-full rounded-lg shadow-lg"
                   />
                 </div>
-                <div className="space-y-4">
-                  <h2 className="text-3xl font-bold text-foreground">
-                    Walmart InHome App
-                  </h2>
+                <div className="space-y-4 order-2 md:order-2">
                   <p className="text-lg text-muted-foreground">
                     Revolutionary grocery delivery service allowing deliveries directly into customers' homes and refrigerators.
                   </p>
@@ -45,11 +45,11 @@ const DigitalProduct = () => {
 
             {/* Frank Section */}
             <section className="space-y-8">
+              <h2 className="text-3xl font-bold text-foreground">
+                Frank
+              </h2>
               <div className="grid md:grid-cols-2 gap-8 items-center">
-                <div className="space-y-4">
-                  <h2 className="text-3xl font-bold text-foreground">
-                    Frank
-                  </h2>
+                <div className="order-2 md:order-1 space-y-4">
                   <p className="text-lg text-muted-foreground">
                     Peer-to-peer money lending platform rooted in behavioral economics. Frank uses behavioral economics principles to replace legal contracts with social ones for proximate networks of friends.
                   </p>
@@ -60,7 +60,7 @@ const DigitalProduct = () => {
                     <li>• Trust and reputation systems</li>
                   </ul>
                 </div>
-                <div>
+                <div className="order-1 md:order-2">
                   <img 
                     src="/assets/frank-1.png" 
                     alt="Frank App Interface"

@@ -17,9 +17,9 @@ const ServiceDesign = () => {
 
           {/* The Rounds Project */}
           <section className="mb-20">
+            <h2 className="text-3xl font-bold text-foreground mb-6">The Rounds</h2>
             <div className="grid md:grid-cols-[2fr_1fr] gap-12 items-start">
-              <div>
-                <h2 className="text-3xl font-bold text-foreground mb-6">The Rounds</h2>
+              <div className="order-2 md:order-1">
                 <p className="text-lg text-muted-foreground mb-6">
                   Created a 2-way logistics system to meet organizational goals of lowering Customer Acquisition Cost (CAC) and increasing Lifetime Value (LTV).
                 </p>
@@ -63,7 +63,7 @@ const ServiceDesign = () => {
                 </div>
               </div>
 
-              <div className="space-y-6">
+              <div className="space-y-6 order-1 md:order-2">
                 <img 
                   src="/assets/rounds-bags-and-compost.jpg" 
                   alt="The Rounds delivery bags and compost service"
@@ -88,8 +88,9 @@ const ServiceDesign = () => {
 
           {/* Walmart InHome Delivery Project */}
           <section>
+            <h2 className="text-3xl font-bold text-foreground mb-6">Walmart InHome Delivery</h2>
             <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-start">
-              <div className="space-y-6">
+              <div className="space-y-6 order-1 md:order-1">
                 <img 
                   src="/assets/walmart-inhome-delivery.jpg" 
                   alt="Walmart InHome delivery service"
@@ -107,8 +108,7 @@ const ServiceDesign = () => {
                 />
               </div>
 
-              <div>
-                <h2 className="text-3xl font-bold text-foreground mb-6">Walmart InHome Delivery</h2>
+              <div className="order-2 md:order-2">
                 <p className="text-lg text-muted-foreground mb-6">
                   Developed an innovative last-inch delivery system enabling Walmart associates to deliver groceries directly to customers' refrigerators.
                 </p>

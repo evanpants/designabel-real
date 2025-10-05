@@ -14,7 +14,7 @@ const Portfolio = () => {
             {/* Doona Section */}
             <section className="space-y-8">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div className="space-y-6">
+                <div className="space-y-6 order-1 lg:order-1">
                   <img 
                     src="/assets/doona-main.jpg" 
                     alt="Doona: Stroller to Car Seat conversion"
@@ -26,7 +26,7 @@ const Portfolio = () => {
                     className="w-full rounded-lg shadow-lg"
                   />
                 </div>
-                <div className="space-y-6">
+                <div className="space-y-6 order-2 lg:order-2">
                   <h2 className="text-3xl font-bold text-foreground">
                     Doona: Stroller → Car Seat
                   </h2>
@@ -46,7 +46,7 @@ const Portfolio = () => {
             {/* Newton Section */}
             <section className="space-y-8">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div className="space-y-6">
+                <div className="order-2 lg:order-1 space-y-6">
                   <h2 className="text-3xl font-bold text-foreground">Newton: Crib Mattress</h2>
                   <p className="text-lg text-muted-foreground">VP of Product</p>
                   <p className="text-foreground leading-relaxed">
@@ -58,7 +58,7 @@ const Portfolio = () => {
                     </a>
                   </Button>
                 </div>
-                <div>
+                <div className="order-1 lg:order-2">
                   <img 
                     src="/assets/newton.png" 
                     alt="Newton breathable crib mattress"
@@ -71,7 +71,7 @@ const Portfolio = () => {
             {/* Wim Section */}
             <section className="space-y-8">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div className="space-y-6">
+                <div className="space-y-6 order-1 lg:order-1">
                   <img 
                     src="/assets/wim-gif.gif" 
                     alt="Wim frozen yogurt machine mixing"
@@ -83,7 +83,7 @@ const Portfolio = () => {
                     className="w-full rounded-lg shadow-lg"
                   />
                 </div>
-                <div className="space-y-6">
+                <div className="space-y-6 order-2 lg:order-2">
                   <h2 className="text-3xl font-bold text-foreground">Wim: Froyo Machine</h2>
                   <p className="text-lg text-muted-foreground">Director of Manufacturing</p>
                   <p className="text-foreground leading-relaxed">
@@ -101,7 +101,7 @@ const Portfolio = () => {
             {/* Whstl Brief-Pack Section */}
             <section className="space-y-8">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div className="space-y-6">
+                <div className="space-y-6 order-2 lg:order-1">
                   <h2 className="text-3xl font-bold text-foreground">
                     Whstl Brief-Pack
                   </h2>
@@ -113,7 +113,7 @@ const Portfolio = () => {
                     <a href="/bags">Whstl Website</a>
                   </Button>
                 </div>
-                <div>
+                <div className="order-1 lg:order-2">
                   <img 
                     src="/assets/brief-pack.jpg" 
                     alt="Whstl Brief-Pack convertible bag"
