@@ -20,8 +20,8 @@ const Index = () => {
         {/* Hero Section */}
         <section className="relative">
           {/* Mobile Layout - Text Above Images */}
-          <div className="md:hidden bg-white py-12 px-6">
-            <div className="max-w-md mx-auto space-y-8">
+          <div className="md:hidden bg-white pt-20 pb-6 px-6">
+            <div className="max-w-md mx-auto space-y-4">
               <h1 className="text-4xl font-brand font-light leading-tight text-black">
                 Product,<br />
                 Operations,<br />
