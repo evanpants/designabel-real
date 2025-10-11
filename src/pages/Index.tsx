@@ -18,24 +18,30 @@ const Index = () => {
       
       <main className="relative">
         {/* Hero Section */}
-        <section className="relative min-h-screen flex items-center">
-          <HeroCarousel />
+        <section className="relative min-h-screen flex">
+          <div className="absolute inset-0 flex">
+            <div className="flex-1 relative overflow-hidden">
+              <HeroCarousel />
+            </div>
+            <div className="w-[35%] bg-white"></div>
+          </div>
           
-          <div className="relative container mx-auto px-4 sm:px-6">
-            <div className="max-w-2xl mx-auto">
-              <div className="space-y-8 text-center">
-                <h1 className={`text-4xl md:text-6xl font-bold leading-tight hero-text-transition ${textColor} [text-shadow:_-1px_-1px_0_#000,_1px_-1px_0_#000,_-1px_1px_0_#000,_1px_1px_0_#000]`}>
+          <div className="relative w-full flex">
+            <div className="flex-1"></div>
+            <div className="w-[35%] flex items-center justify-center px-8 py-20">
+              <div className="space-y-12">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-brand font-light leading-tight text-black">
                   Product,<br />
                   Operations,<br />
                   Leadership
                 </h1>
                 
-                <div className={`space-y-3 text-lg text-left md:text-left max-w-md mx-auto md:mx-0 hero-text-transition font-bold ${textColor} [text-shadow:_-1px_-1px_0_#000,_1px_-1px_0_#000,_-1px_1px_0_#000,_1px_1px_0_#000]`}>
+                <div className="space-y-3 text-lg font-brand font-light text-black">
                   {bulletLinks.map((link) => (
                     <Link 
                       key={link.path}
                       to={link.path}
-                      className="block hover:underline hover:translate-x-2 transition-transform"
+                      className="block hover:underline transition-all"
                     >
                       • {link.text}
                     </Link>

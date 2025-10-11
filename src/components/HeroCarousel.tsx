@@ -33,7 +33,7 @@ export const HeroCarousel = () => {
             }`}
           />
         ))}
-        <div className="absolute inset-0 bg-background/40"></div>
+        
       </div>
       {/* Return current text color for parent to use */}
       <style>{`
