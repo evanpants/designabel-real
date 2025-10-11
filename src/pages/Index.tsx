@@ -18,34 +18,65 @@ const Index = () => {
       
       <main className="relative">
         {/* Hero Section */}
-        <section className="relative min-h-screen flex">
-          <div className="absolute inset-0 flex">
-            <div className="flex-1 relative overflow-hidden">
-              <HeroCarousel />
+        <section className="relative">
+          {/* Mobile/Tablet Layout - Text Above Images */}
+          <div className="lg:hidden bg-white py-12 px-6">
+            <div className="max-w-md mx-auto space-y-8">
+              <h1 className="text-4xl md:text-5xl font-brand font-light leading-tight text-black">
+                Product,<br />
+                Operations,<br />
+                Leadership
+              </h1>
+              
+              <div className="space-y-3 text-lg font-brand font-light text-black">
+                {bulletLinks.map((link) => (
+                  <Link 
+                    key={link.path}
+                    to={link.path}
+                    className="block transition-all duration-200 hover:font-semibold hover:translate-x-2"
+                  >
+                    • {link.text}
+                  </Link>
+                ))}
+              </div>
             </div>
-            <div className="w-[35%] bg-white"></div>
           </div>
           
-          <div className="relative w-full flex">
-            <div className="flex-1"></div>
-            <div className="w-[35%] flex items-center justify-center px-8 py-20">
-              <div className="space-y-12">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-brand font-light leading-tight text-black">
-                  Product,<br />
-                  Operations,<br />
-                  Leadership
-                </h1>
-                
-                <div className="space-y-3 text-lg font-brand font-light text-black">
-                  {bulletLinks.map((link) => (
-                    <Link 
-                      key={link.path}
-                      to={link.path}
-                      className="block hover:underline transition-all"
-                    >
-                      • {link.text}
-                    </Link>
-                  ))}
+          <div className="relative h-[50vh] lg:h-[85vh] flex">
+            <div className="absolute inset-0 hidden lg:flex">
+              <div className="flex-1 relative overflow-hidden">
+                <HeroCarousel />
+              </div>
+              <div className="w-[35%] bg-white"></div>
+            </div>
+            
+            {/* Mobile Carousel */}
+            <div className="absolute inset-0 lg:hidden">
+              <HeroCarousel />
+            </div>
+            
+            {/* Desktop Text Panel */}
+            <div className="relative w-full hidden lg:flex">
+              <div className="flex-1"></div>
+              <div className="w-[35%] flex items-center justify-center px-8 py-20">
+                <div className="space-y-12">
+                  <h1 className="text-4xl xl:text-5xl 2xl:text-6xl font-brand font-light leading-tight text-black">
+                    Product,<br />
+                    Operations,<br />
+                    Leadership
+                  </h1>
+                  
+                  <div className="space-y-3 text-lg font-brand font-light text-black">
+                    {bulletLinks.map((link) => (
+                      <Link 
+                        key={link.path}
+                        to={link.path}
+                        className="block transition-all duration-200 hover:font-semibold hover:translate-x-2"
+                      >
+                        • {link.text}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
