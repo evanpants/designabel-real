@@ -19,10 +19,10 @@ const Index = () => {
       <main className="relative">
         {/* Hero Section */}
         <section className="relative">
-          {/* Mobile/Tablet Layout - Text Above Images */}
-          <div className="lg:hidden bg-white py-12 px-6">
+          {/* Mobile Layout - Text Above Images */}
+          <div className="md:hidden bg-white py-12 px-6">
             <div className="max-w-md mx-auto space-y-8">
-              <h1 className="text-4xl md:text-5xl font-brand font-light leading-tight text-black">
+              <h1 className="text-4xl font-brand font-light leading-tight text-black">
                 Product,<br />
                 Operations,<br />
                 Leadership
@@ -42,21 +42,21 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="relative h-[50vh] lg:h-[85vh] flex">
-            <div className="absolute inset-0 hidden lg:flex">
+          <div className="relative h-[60vh] md:h-[85vh] flex">
+            <div className="absolute inset-0 hidden md:flex">
               <div className="flex-1 relative overflow-hidden">
                 <HeroCarousel />
               </div>
               <div className="w-[35%] bg-white"></div>
             </div>
             
-            {/* Mobile Carousel */}
-            <div className="absolute inset-0 lg:hidden">
+            {/* Mobile Carousel - Reduced Height */}
+            <div className="absolute inset-0 md:hidden">
               <HeroCarousel />
             </div>
             
-            {/* Desktop Text Panel */}
-            <div className="relative w-full hidden lg:flex">
+            {/* Tablet/Desktop Text Panel */}
+            <div className="relative w-full hidden md:flex">
               <div className="flex-1"></div>
               <div className="w-[35%] flex items-center justify-center px-8 py-20">
                 <div className="space-y-12">
