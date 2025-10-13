@@ -19,8 +19,8 @@ const Index = () => {
       <main className="relative">
         {/* Hero Section */}
         <section className="relative">
-          {/* Mobile Layout - Text Above Images */}
-          <div className="md:hidden bg-white pt-20 pb-6 px-6">
+          {/* Mobile/Tablet Layout - Text Above Images */}
+          <div className="lg:hidden bg-white pt-20 pb-4 px-6">
             <div className="max-w-md mx-auto space-y-4">
               <h1 className="text-4xl font-brand font-light leading-tight text-black">
                 Product,<br />
@@ -42,21 +42,21 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="relative h-[60vh] md:h-[85vh] flex">
-            <div className="absolute inset-0 hidden md:flex">
+          <div className="relative h-[70vh] lg:h-[85vh] flex">
+            <div className="absolute inset-0 hidden lg:flex">
               <div className="flex-1 relative overflow-hidden">
                 <HeroCarousel />
               </div>
               <div className="w-[35%] bg-white"></div>
             </div>
             
-            {/* Mobile Carousel - Reduced Height */}
-            <div className="absolute inset-0 md:hidden">
+            {/* Mobile/Tablet Carousel - Full Images */}
+            <div className="absolute inset-0 lg:hidden">
               <HeroCarousel />
             </div>
             
-            {/* Tablet/Desktop Text Panel */}
-            <div className="relative w-full hidden md:flex">
+            {/* Desktop Text Panel */}
+            <div className="relative w-full hidden lg:flex">
               <div className="flex-1"></div>
               <div className="w-[35%] flex items-center justify-center px-8 py-20">
                 <div className="space-y-12">
@@ -84,7 +84,7 @@ const Index = () => {
         </section>
 
         {/* Featured Work Section */}
-        <section className="py-20 bg-secondary">
+        <section className="py-12 lg:py-20 bg-secondary">
           <div className="container mx-auto px-4 sm:px-6">
             <div className="text-center mb-16">
               <h3 className="text-3xl font-bold text-foreground mb-4">Featured Work</h3>
