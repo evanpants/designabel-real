@@ -20,15 +20,15 @@ const Index = () => {
         {/* Hero Section */}
         <section className="relative">
           {/* Mobile/Tablet Layout - Text Above Images */}
-          <div className="lg:hidden bg-white pt-20 px-6">
-            <div className="max-w-md mx-auto space-y-4">
-              <h1 className="text-4xl font-brand font-light leading-tight text-black">
+          <div className="lg:hidden bg-white pt-20 pb-1">
+            <div className="px-6">
+              <h1 className="text-4xl font-brand font-light leading-tight text-black mb-3">
                 Product,<br />
                 Operations,<br />
                 Leadership
               </h1>
               
-              <div className="space-y-3 text-lg font-brand font-light text-black">
+              <div className="space-y-2 text-lg font-brand font-light text-black">
                 {bulletLinks.map((link) => (
                   <Link 
                     key={link.path}
@@ -42,7 +42,7 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="relative h-[70vh] lg:h-[85vh] flex">
+          <div className="relative h-[50vh] lg:h-[85vh] flex">
             <div className="absolute inset-0 hidden lg:flex">
               <div className="flex-1 relative overflow-hidden">
                 <HeroCarousel />
@@ -84,9 +84,9 @@ const Index = () => {
         </section>
 
         {/* Featured Work Section */}
-        <section className="lg:pt-20 bg-secondary">
+        <section className="pt-8 lg:pt-20 bg-secondary">
           <div className="container mx-auto px-4 sm:px-6">
-            <div className="text-center mb-16">
+            <div className="text-center mb-8 lg:mb-16">
               <h3 className="text-3xl font-bold text-foreground mb-4">Featured Work</h3>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                 Leading product development from concept to scale across physical and digital experiences.
