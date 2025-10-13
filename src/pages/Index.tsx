@@ -20,7 +20,7 @@ const Index = () => {
         {/* Hero Section */}
         <section className="relative">
           {/* Mobile/Tablet Layout - Text Above Images */}
-          <div className="lg:hidden bg-white pt-20 pb-4 px-6">
+          <div className="lg:hidden bg-white pt-20 px-6">
             <div className="max-w-md mx-auto space-y-4">
               <h1 className="text-4xl font-brand font-light leading-tight text-black">
                 Product,<br />
@@ -84,7 +84,7 @@ const Index = () => {
         </section>
 
         {/* Featured Work Section */}
-        <section className="py-12 lg:py-20 bg-secondary">
+        <section className="lg:pt-20 bg-secondary">
           <div className="container mx-auto px-4 sm:px-6">
             <div className="text-center mb-16">
               <h3 className="text-3xl font-bold text-foreground mb-4">Featured Work</h3>
