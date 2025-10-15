@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import { HeroCarousel, useCurrentCarouselTextColor } from "@/components/HeroCarousel";
 import { Link } from "react-router-dom";
 
@@ -84,7 +85,7 @@ const Index = () => {
         </section>
 
         {/* Featured Work Section */}
-        <section className="pt-8 lg:pt-20 bg-secondary">
+        <section className="pt-8 lg:pt-20 pb-8 lg:pb-20 bg-secondary">
           <div className="container mx-auto px-4 sm:px-6">
             <div className="text-center mb-8 lg:mb-16">
               <h3 className="text-3xl font-bold text-foreground mb-4">Featured Work</h3>
@@ -134,6 +135,7 @@ const Index = () => {
         </section>
         
       </main>
+      <Footer />
     </div>
   );
 };

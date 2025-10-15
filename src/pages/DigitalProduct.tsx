@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 const DigitalProduct = () => {
   return (
@@ -91,6 +92,7 @@ const DigitalProduct = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 
 const Achievements = () => {
@@ -177,6 +178,7 @@ const Achievements = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

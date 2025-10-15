@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { useState } from "react";
 
@@ -168,6 +169,7 @@ const Patents = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

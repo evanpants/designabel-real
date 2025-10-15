@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 const ServiceDesign = () => {
   return (
@@ -173,6 +174,7 @@ const ServiceDesign = () => {
           </section>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

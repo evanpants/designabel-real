@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { BagCarousel } from "@/components/BagCarousel";
@@ -114,6 +115,7 @@ const Bags = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

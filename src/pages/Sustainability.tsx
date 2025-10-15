@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 
 const Sustainability = () => {
@@ -137,6 +138,7 @@ const Sustainability = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };
