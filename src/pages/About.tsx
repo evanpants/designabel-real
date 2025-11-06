@@ -44,7 +44,7 @@ const About = () => {
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 text-foreground hover:text-muted-foreground transition-colors"
                       >
-                        <FileText className="w-6 h-6 flex-shrink-0" />
+                        <FileText className="w-6 h-auto flex-shrink-0" />
                         <span className="text-sm font-medium">Interactive Resume!</span>
                       </a>
                     </div>
