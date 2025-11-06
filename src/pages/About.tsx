@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { FileText } from "lucide-react";
+import resumeQR from "@/assets/resume-qr-code.png";
 
 const About = () => {
   return (
@@ -48,6 +49,11 @@ const About = () => {
                           <FileText className="w-full h-auto" strokeWidth={1.5} />
                         </div>
                         <span className="text-sm font-medium">Interactive Resume!</span>
+                        <img 
+                          src={resumeQR} 
+                          alt="QR Code for Interactive Resume" 
+                          className="w-10 h-10 flex-shrink-0 ml-1"
+                        />
                       </a>
                     </div>
                   </div>
