@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import { FileText } from "lucide-react";
 
 const About = () => {
   return (
@@ -21,19 +22,30 @@ const About = () => {
                       className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
                     />
                     {/* LinkedIn Link */}
-                    <div className="mt-6 text-center">
+                    <div className="mt-6 space-y-4">
                       <a 
                         href="https://www.linkedin.com/in/evanabel/" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 text-foreground hover:text-muted-foreground transition-colors"
+                        className="flex items-center gap-2 text-foreground hover:text-muted-foreground transition-colors"
                       >
                         <img 
                           src="/assets/linkedin-icon.png" 
                           alt="LinkedIn" 
-                          className="w-6 h-6"
+                          className="w-6 h-6 flex-shrink-0"
                         />
                         <span className="text-sm font-medium">Connect on LinkedIn</span>
+                      </a>
+                      
+                      {/* Interactive Resume Link */}
+                      <a 
+                        href="https://id-preview--edabc21d-9065-49a5-8cde-ed01aa7eab7d.lovable.app/view/evan-abel-1762381597516" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-foreground hover:text-muted-foreground transition-colors"
+                      >
+                        <FileText className="w-6 h-6 flex-shrink-0" />
+                        <span className="text-sm font-medium">Interactive Resume!</span>
                       </a>
                     </div>
                   </div>
