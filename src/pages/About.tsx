@@ -52,7 +52,7 @@ const About = () => {
                         <img 
                           src={resumeQR} 
                           alt="QR Code for Interactive Resume" 
-                          className="w-15 h-15 flex-shrink-0 ml-1"
+                          className="w-[18px] h-[18px] flex-shrink-0 ml-1"
                         />
                       </a>
                     </div>
