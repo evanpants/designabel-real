@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { FileText } from "lucide-react";
 import resumeQR from "@/assets/resume-qr-code.png";
+import visualResumeQR from "@/assets/visual-resume-qr.png";
 
 const About = () => {
   return (
@@ -69,14 +70,27 @@ const About = () => {
                     </p>
                     
                     <div className="flex flex-col items-center my-8">
-                      <a 
-                        href="https://evanpants.github.io/pdf-photo-carousel/view/evan-abel-1762381597516" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="inline-block px-8 py-3 text-4xl font-bold text-foreground border-2 border-foreground rounded-lg hover:bg-foreground hover:text-background transition-colors text-center"
-                      >
-                        Visual Resume
-                      </a>
+                      <div className="flex items-center gap-3">
+                        <a 
+                          href="https://evanpants.github.io/pdf-photo-carousel/view/evan-abel-1762381597516" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="inline-block px-6 py-2 text-2xl font-bold text-foreground border-2 border-foreground rounded-lg hover:bg-muted hover:text-foreground transition-colors text-center"
+                        >
+                          Visual Resume
+                        </a>
+                        <a 
+                          href="https://evanpants.github.io/pdf-photo-carousel/view/evan-abel-1762381597516" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                        >
+                          <img 
+                            src={visualResumeQR} 
+                            alt="QR Code for Visual Resume" 
+                            className="h-[52px] w-[52px]"
+                          />
+                        </a>
+                      </div>
                       <span className="text-sm text-muted-foreground mt-2">(vibecoded app!)</span>
                     </div>
                     
