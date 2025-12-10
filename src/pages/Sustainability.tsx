@@ -45,6 +45,14 @@ const Sustainability = () => {
                   </Button>
                 ))}
               </div>
+              
+              <div className="flex justify-center mt-8">
+                <Button variant="outline" className="h-auto p-4 justify-start" asChild>
+                  <a href="https://store.thirdsphere.com/" target="_blank" rel="noopener noreferrer" className="w-full text-left">
+                    Fun Buys
+                  </a>
+                </Button>
+              </div>
             </section>
 
             {/* Career Navigation Section */}
