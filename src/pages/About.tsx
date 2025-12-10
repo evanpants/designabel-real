@@ -68,6 +68,18 @@ const About = () => {
                       I have 20 years of experience bringing innovative products to life. As a mechanical engineer and MBA who founded three companies (two acquired), I've driven product and operations excellence at VC-backed startups and Walmart alike. I'm comfortable bringing complex ideas to scale.
                     </p>
                     
+                    <div className="flex flex-col items-center my-8">
+                      <a 
+                        href="https://evanpants.github.io/pdf-photo-carousel/view/evan-abel-1762381597516" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="inline-block px-8 py-3 text-4xl font-bold text-foreground border-2 border-foreground rounded-lg hover:bg-foreground hover:text-background transition-colors text-center"
+                      >
+                        Visual Resume
+                      </a>
+                      <span className="text-sm text-muted-foreground mt-2">(vibecoded app!)</span>
+                    </div>
+                    
                     <div className="space-y-4">
                       <h3 className="text-xl font-semibold text-foreground">
                         ⇾ (Physical) Product: Design and Manufacturing
