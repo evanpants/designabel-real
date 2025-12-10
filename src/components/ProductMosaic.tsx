@@ -105,19 +105,19 @@ export const ProductMosaic = () => {
       </section>
 
       <Dialog open={!!selectedProduct} onOpenChange={() => setSelectedProduct(null)}>
-        <DialogContent className="max-w-4xl">
+        <DialogContent className="max-w-[95vw] md:max-w-4xl p-4 md:p-6">
           {selectedProduct && (
             <div className="space-y-4">
-              <h2 className="text-2xl font-bold text-foreground">{selectedProduct.name}</h2>
-              <Carousel className="w-full">
+              <h2 className="text-xl md:text-2xl font-bold text-foreground">{selectedProduct.name}</h2>
+              <Carousel className="w-full px-8 md:px-12">
                 <CarouselContent>
                   {selectedProduct.carouselImages.map((image, index) => (
                     <CarouselItem key={index}>
-                      <div className="flex items-center justify-center p-4">
+                      <div className="flex items-center justify-center p-2 md:p-4">
                         <img
                           src={image}
                           alt={`${selectedProduct.name} - Image ${index + 1}`}
-                          className="max-h-[60vh] w-auto object-contain rounded-lg"
+                          className="max-h-[50vh] md:max-h-[60vh] w-auto object-contain rounded-lg"
                         />
                       </div>
                     </CarouselItem>

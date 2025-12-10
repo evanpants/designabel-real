@@ -1,7 +1,5 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { FileText } from "lucide-react";
-import resumeQR from "@/assets/resume-qr-code.png";
 import visualResumeQR from "@/assets/visual-resume-qr.png";
 
 const About = () => {
@@ -24,7 +22,7 @@ const About = () => {
                       className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
                     />
                     {/* LinkedIn Link */}
-                    <div className="mt-6 space-y-4">
+                    <div className="mt-6">
                       <a 
                         href="https://www.linkedin.com/in/evanabel/" 
                         target="_blank" 
@@ -37,24 +35,6 @@ const About = () => {
                           className="w-6 h-6 flex-shrink-0"
                         />
                         <span className="text-sm font-medium">Connect on LinkedIn</span>
-                      </a>
-                      
-                      {/* Interactive Resume Link */}
-                      <a 
-                        href="https://id-preview--edabc21d-9065-49a5-8cde-ed01aa7eab7d.lovable.app/view/evan-abel-1762381597516" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 text-foreground hover:text-muted-foreground transition-colors"
-                      >
-                        <div className="w-6 flex items-center justify-center flex-shrink-0">
-                          <FileText className="w-full h-auto" strokeWidth={1.5} />
-                        </div>
-                        <span className="text-sm font-medium">Interactive Resume!</span>
-                        <img 
-                          src={resumeQR} 
-                          alt="QR Code for Interactive Resume" 
-                          className="w-[18px] h-[18px] flex-shrink-0 ml-1"
-                        />
                       </a>
                     </div>
                   </div>
