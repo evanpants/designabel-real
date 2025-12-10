@@ -36,7 +36,8 @@ const Sustainability = () => {
                   { name: "Ellen MacArthur Foundation", url: "https://ellenmacarthurfoundation.org/" },
                   { name: "Closed Loop Partners", url: "https://www.closedlooppartners.com/" },
                   { name: "GreenBiz", url: "https://www.greenbiz.com/collections/circular-economy" },
-                  { name: "Upstream", url: "https://upstreamsolutions.org/" }
+                  { name: "Upstream", url: "https://upstreamsolutions.org/" },
+                  { name: "Fun Buys", url: "https://store.thirdsphere.com/" }
                 ].map((link) => (
                   <Button key={link.name} variant="outline" className="h-auto p-4 justify-start" asChild>
                     <a href={link.url} target="_blank" rel="noopener noreferrer" className="w-full text-left">
@@ -44,14 +45,6 @@ const Sustainability = () => {
                     </a>
                   </Button>
                 ))}
-              </div>
-              
-              <div className="flex justify-center mt-8">
-                <Button variant="outline" className="h-auto p-4 justify-start" asChild>
-                  <a href="https://store.thirdsphere.com/" target="_blank" rel="noopener noreferrer" className="w-full text-left">
-                    Fun Buys
-                  </a>
-                </Button>
               </div>
             </section>
 
