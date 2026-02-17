@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Focus — Designabel</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      background: #ffffff;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .qr {
+      width: min(320px, 72vmin);
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <img
+    class="qr"
+    src="qr.png"
+    alt="Hocus Focus QR Code"
+  />
+</body>
+</html>
 
